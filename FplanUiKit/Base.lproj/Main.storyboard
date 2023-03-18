@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FplanUiKit" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PfJ-xt-E4d">
+                                <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                                <items>
+                                    <barButtonItem title="Select Booth" image="b.circle" catalog="system" id="v8E-iX-dJa">
+                                        <connections>
+                                            <action selector="selectBooth:" destination="BYZ-38-t0r" id="WeM-2p-mMu"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Select Exhibitor" image="e.circle" catalog="system" id="djR-te-JpN">
+                                        <connections>
+                                            <action selector="selectExhibitor:" destination="BYZ-38-t0r" id="E4k-Ps-MX3"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Build Route" image="r.circle" catalog="system" id="RuE-HQ-7Cd">
+                                        <connections>
+                                            <action selector="buildRoute:" destination="BYZ-38-t0r" id="w2J-j8-hco"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Clear" image="c.circle" catalog="system" id="LBS-GH-y98">
+                                        <connections>
+                                            <action selector="clear:" destination="BYZ-38-t0r" id="FaY-WU-71w"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MbL-L5-gBf">
+                                <rect key="frame" x="0.0" y="91" width="390" height="719"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RU9-BJ-CXv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PfJ-xt-E4d" firstAttribute="leading" secondItem="RU9-BJ-CXv" secondAttribute="leading" id="AE2-hh-Vq5"/>
+                            <constraint firstItem="RU9-BJ-CXv" firstAttribute="bottom" secondItem="MbL-L5-gBf" secondAttribute="bottom" id="CqX-eH-t2R"/>
+                            <constraint firstItem="PfJ-xt-E4d" firstAttribute="top" secondItem="RU9-BJ-CXv" secondAttribute="top" id="JjT-SY-q7U"/>
+                            <constraint firstItem="MbL-L5-gBf" firstAttribute="leading" secondItem="RU9-BJ-CXv" secondAttribute="leading" id="Qbw-V8-a0R"/>
+                            <constraint firstItem="RU9-BJ-CXv" firstAttribute="trailing" secondItem="MbL-L5-gBf" secondAttribute="trailing" id="SI6-Wr-KuV"/>
+                            <constraint firstItem="PfJ-xt-E4d" firstAttribute="trailing" secondItem="RU9-BJ-CXv" secondAttribute="trailing" id="eHq-IX-Cmf"/>
+                            <constraint firstItem="MbL-L5-gBf" firstAttribute="top" secondItem="PfJ-xt-E4d" secondAttribute="bottom" id="igk-SZ-RFc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="container" destination="MbL-L5-gBf" collectionClass="NSMutableArray" id="hRg-QF-VFf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2918.4615384615386" y="-27.014218009478672"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="b.circle" catalog="system" width="128" height="123"/>
+        <image name="c.circle" catalog="system" width="128" height="123"/>
+        <image name="e.circle" catalog="system" width="128" height="123"/>
+        <image name="r.circle" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

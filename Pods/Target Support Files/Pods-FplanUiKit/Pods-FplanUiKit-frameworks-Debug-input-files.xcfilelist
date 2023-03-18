@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpCommon/ExpoFpCommon.framework/ExpoFpCommon
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpFplan/ExpoFpFplan.framework/ExpoFpFplan

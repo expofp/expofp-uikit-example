@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		493E430097FB044EFFC9C893372A5370 /* ExpoFpCommon */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F1AD709EBD51316DBD216C5EB0FE37D2 /* Build configuration list for PBXAggregateTarget "ExpoFpCommon" */;
+			buildPhases = (
+				A671DEDCC279E162939D83590C5510EE /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = ExpoFpCommon;
+		};
+		E0854FE4B0DC6C5828BAE2E046665478 /* ExpoFpFplan */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FA4DDD21EF82A19AD266597082FA7F70 /* Build configuration list for PBXAggregateTarget "ExpoFpFplan" */;
+			buildPhases = (
+				32A1514D210C926A33E5E2F9B99343AD /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				151F755FC20CAB92363A8902FC8244BE /* PBXTargetDependency */,
+			);
+			name = ExpoFpFplan;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1CCEED8481994C10D7B926793F073D22 /* Pods-FplanUiKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A80A1CB16FCC1F2074C7BA01069D26C /* Pods-FplanUiKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BC341D8474D8E5C4AD53EF1BA1DD819 /* Pods-FplanUiKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA9E4E0284A92DC2EA0BF4BDF6D4BF /* Pods-FplanUiKit-dummy.m */; };
+		EDEB338CB1797D2C8BB2036E26602D84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09A3D8A2A4FD73461C4571D327E46FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0854FE4B0DC6C5828BAE2E046665478;
+			remoteInfo = ExpoFpFplan;
+		};
+		38B50FA40632F148489DCF379D7A3187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 493E430097FB044EFFC9C893372A5370;
+			remoteInfo = ExpoFpCommon;
+		};
+		9DC75C36CD6E1A36451B6C1B914D3DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 493E430097FB044EFFC9C893372A5370;
+			remoteInfo = ExpoFpCommon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163E4F04A304A55A4112AA0C329532E6 /* ExpoFpCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ExpoFpCommon.xcframework; path = xcframework/ExpoFpCommon.xcframework; sourceTree = "<group>"; };
+		2320E79CAB6FEA9C9A20D29635C052D3 /* ExpoFpCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpCommon.release.xcconfig; sourceTree = "<group>"; };
+		40E44C502B9381F4C984BBFF17B94861 /* ExpoFpFplan-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ExpoFpFplan-xcframeworks.sh"; sourceTree = "<group>"; };
+		6A80A1CB16FCC1F2074C7BA01069D26C /* Pods-FplanUiKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FplanUiKit-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75C1EBF995BF69A94C45CC9060B64AB2 /* ExpoFpFplan.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ExpoFpFplan.xcframework; path = xcframework/ExpoFpFplan.xcframework; sourceTree = "<group>"; };
+		7FE4B26B1DDF30F8CB33D96240373525 /* Pods-FplanUiKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FplanUiKit.modulemap"; sourceTree = "<group>"; };
+		85B1028F3982191FB4F1945EE860605B /* Pods-FplanUiKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FplanUiKit.debug.xcconfig"; sourceTree = "<group>"; };
+		88D8971CCFE6AAD5DC24CCB7C9FB8815 /* Pods-FplanUiKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FplanUiKit-Info.plist"; sourceTree = "<group>"; };
+		8C0D9B099D40E45F0FABF52025E3C808 /* Pods-FplanUiKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FplanUiKit"; path = Pods_FplanUiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A486B297E97D6D17BE3EF3D4CDE154C1 /* ExpoFpCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpCommon.debug.xcconfig; sourceTree = "<group>"; };
+		AA5B9124CCD38DD512B6B17303D88261 /* ExpoFpFplan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpFplan.debug.xcconfig; sourceTree = "<group>"; };
+		AEA19A96E7887C4E7E8F2CA66E01E687 /* ExpoFpFplan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpFplan.release.xcconfig; sourceTree = "<group>"; };
+		B1ACCC44ED0EAA3A73FE20AA0F36D7CE /* ExpoFpCommon-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ExpoFpCommon-xcframeworks.sh"; sourceTree = "<group>"; };
+		BDBA9E4E0284A92DC2EA0BF4BDF6D4BF /* Pods-FplanUiKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FplanUiKit-dummy.m"; sourceTree = "<group>"; };
+		CFDB37F04CF3700D4AA550A3262F31EB /* Pods-FplanUiKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FplanUiKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0BB74B52C89997582EB1CC76A1C6F61 /* Pods-FplanUiKit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FplanUiKit-frameworks.sh"; sourceTree = "<group>"; };
+		EAF6D0CB109BF332A5C6ABB69B13612F /* Pods-FplanUiKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FplanUiKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFCEFE7992BC029C2E957EEDA5D3A9D6 /* Pods-FplanUiKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FplanUiKit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564F37AD8C55C3EA96E33E91D1D1EF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEB338CB1797D2C8BB2036E26602D84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019DA17DA2EA608B1B91BD2DEEC4F4A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75C1EBF995BF69A94C45CC9060B64AB2 /* ExpoFpFplan.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		065C50E0468EF0400976D1D64E64F2D5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AE3209869A21563C1DE269809B7BD2A /* Pods-FplanUiKit */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		07C22CF2DADBB616C5C5DC85A67C687A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40E44C502B9381F4C984BBFF17B94861 /* ExpoFpFplan-xcframeworks.sh */,
+				AA5B9124CCD38DD512B6B17303D88261 /* ExpoFpFplan.debug.xcconfig */,
+				AEA19A96E7887C4E7E8F2CA66E01E687 /* ExpoFpFplan.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ExpoFpFplan";
+			sourceTree = "<group>";
+		};
+		2AE3209869A21563C1DE269809B7BD2A /* Pods-FplanUiKit */ = {
+			isa = PBXGroup;
+			children = (
+				7FE4B26B1DDF30F8CB33D96240373525 /* Pods-FplanUiKit.modulemap */,
+				EAF6D0CB109BF332A5C6ABB69B13612F /* Pods-FplanUiKit-acknowledgements.markdown */,
+				CFDB37F04CF3700D4AA550A3262F31EB /* Pods-FplanUiKit-acknowledgements.plist */,
+				BDBA9E4E0284A92DC2EA0BF4BDF6D4BF /* Pods-FplanUiKit-dummy.m */,
+				E0BB74B52C89997582EB1CC76A1C6F61 /* Pods-FplanUiKit-frameworks.sh */,
+				88D8971CCFE6AAD5DC24CCB7C9FB8815 /* Pods-FplanUiKit-Info.plist */,
+				6A80A1CB16FCC1F2074C7BA01069D26C /* Pods-FplanUiKit-umbrella.h */,
+				85B1028F3982191FB4F1945EE860605B /* Pods-FplanUiKit.debug.xcconfig */,
+				EFCEFE7992BC029C2E957EEDA5D3A9D6 /* Pods-FplanUiKit.release.xcconfig */,
+			);
+			name = "Pods-FplanUiKit";
+			path = "Target Support Files/Pods-FplanUiKit";
+			sourceTree = "<group>";
+		};
+		4417E4A7E4C33370D499C82EA13F65F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93E05FD20D79600D0EF65768FBD9E17E /* ExpoFpCommon */,
+				CA30DD18BA77A9158A7605A3700119A0 /* ExpoFpFplan */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		93E05FD20D79600D0EF65768FBD9E17E /* ExpoFpCommon */ = {
+			isa = PBXGroup;
+			children = (
+				BE60BA6CEDEF31E4CDAA93FD8200FA45 /* Frameworks */,
+				A3B996E409E362E8E3FCD48DE66CE322 /* Support Files */,
+			);
+			name = ExpoFpCommon;
+			path = ExpoFpCommon;
+			sourceTree = "<group>";
+		};
+		A3B996E409E362E8E3FCD48DE66CE322 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1ACCC44ED0EAA3A73FE20AA0F36D7CE /* ExpoFpCommon-xcframeworks.sh */,
+				A486B297E97D6D17BE3EF3D4CDE154C1 /* ExpoFpCommon.debug.xcconfig */,
+				2320E79CAB6FEA9C9A20D29635C052D3 /* ExpoFpCommon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ExpoFpCommon";
+			sourceTree = "<group>";
+		};
+		BE60BA6CEDEF31E4CDAA93FD8200FA45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				163E4F04A304A55A4112AA0C329532E6 /* ExpoFpCommon.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA30DD18BA77A9158A7605A3700119A0 /* ExpoFpFplan */ = {
+			isa = PBXGroup;
+			children = (
+				019DA17DA2EA608B1B91BD2DEEC4F4A0 /* Frameworks */,
+				07C22CF2DADBB616C5C5DC85A67C687A /* Support Files */,
+			);
+			name = ExpoFpFplan;
+			path = ExpoFpFplan;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4417E4A7E4C33370D499C82EA13F65F8 /* Pods */,
+				F395D317357710342E04514AC06CE249 /* Products */,
+				065C50E0468EF0400976D1D64E64F2D5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F395D317357710342E04514AC06CE249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C0D9B099D40E45F0FABF52025E3C808 /* Pods-FplanUiKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9DA59C2CF74BCBBC796CB7910C59D2B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCEED8481994C10D7B926793F073D22 /* Pods-FplanUiKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		851A30EBDDBD21659C4DE234D72AF4A8 /* Pods-FplanUiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5A535F85955054B4335F388AEB268C /* Build configuration list for PBXNativeTarget "Pods-FplanUiKit" */;
+			buildPhases = (
+				9DA59C2CF74BCBBC796CB7910C59D2B4 /* Headers */,
+				94C8662BF87E5E5BB300C7A50775723F /* Sources */,
+				564F37AD8C55C3EA96E33E91D1D1EF72 /* Frameworks */,
+				62488244CC842C192F5A94CF231EC007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B068DB43073DD00C475E6234C22DDC3 /* PBXTargetDependency */,
+				8CC3735400E33F3516752F116974ABA8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FplanUiKit";
+			productName = Pods_FplanUiKit;
+			productReference = 8C0D9B099D40E45F0FABF52025E3C808 /* Pods-FplanUiKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F395D317357710342E04514AC06CE249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				493E430097FB044EFFC9C893372A5370 /* ExpoFpCommon */,
+				E0854FE4B0DC6C5828BAE2E046665478 /* ExpoFpFplan */,
+				851A30EBDDBD21659C4DE234D72AF4A8 /* Pods-FplanUiKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62488244CC842C192F5A94CF231EC007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32A1514D210C926A33E5E2F9B99343AD /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ExpoFpFplan/ExpoFpFplan-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ExpoFpFplan/ExpoFpFplan-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ExpoFpFplan/ExpoFpFplan-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A671DEDCC279E162939D83590C5510EE /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ExpoFpCommon/ExpoFpCommon-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ExpoFpCommon/ExpoFpCommon-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ExpoFpCommon/ExpoFpCommon-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C8662BF87E5E5BB300C7A50775723F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC341D8474D8E5C4AD53EF1BA1DD819 /* Pods-FplanUiKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		151F755FC20CAB92363A8902FC8244BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExpoFpCommon;
+			target = 493E430097FB044EFFC9C893372A5370 /* ExpoFpCommon */;
+			targetProxy = 9DC75C36CD6E1A36451B6C1B914D3DCC /* PBXContainerItemProxy */;
+		};
+		7B068DB43073DD00C475E6234C22DDC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExpoFpCommon;
+			target = 493E430097FB044EFFC9C893372A5370 /* ExpoFpCommon */;
+			targetProxy = 38B50FA40632F148489DCF379D7A3187 /* PBXContainerItemProxy */;
+		};
+		8CC3735400E33F3516752F116974ABA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExpoFpFplan;
+			target = E0854FE4B0DC6C5828BAE2E046665478 /* ExpoFpFplan */;
+			targetProxy = 09A3D8A2A4FD73461C4571D327E46FDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03BD7150CD5B9E0E141E2D33465B3072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA19A96E7887C4E7E8F2CA66E01E687 /* ExpoFpFplan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		246D205064422CC5E1B3783811E3BE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B1028F3982191FB4F1945EE860605B /* Pods-FplanUiKit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B5C9C92821E7A16133026B4D7A6FD64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2320E79CAB6FEA9C9A20D29635C052D3 /* ExpoFpCommon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8CE2A8F22D8324FF0CC80B5356A1D1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA5B9124CCD38DD512B6B17303D88261 /* ExpoFpFplan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE0C6D3DA5A9D13595D2518FC68A19B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A486B297E97D6D17BE3EF3D4CDE154C1 /* ExpoFpCommon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF3DC1BA9DA1E739535E102F89CF51C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFCEFE7992BC029C2E957EEDA5D3A9D6 /* Pods-FplanUiKit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5A535F85955054B4335F388AEB268C /* Build configuration list for PBXNativeTarget "Pods-FplanUiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246D205064422CC5E1B3783811E3BE82 /* Debug */,
+				FF3DC1BA9DA1E739535E102F89CF51C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AD709EBD51316DBD216C5EB0FE37D2 /* Build configuration list for PBXAggregateTarget "ExpoFpCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0C6D3DA5A9D13595D2518FC68A19B5 /* Debug */,
+				3B5C9C92821E7A16133026B4D7A6FD64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4DDD21EF82A19AD266597082FA7F70 /* Build configuration list for PBXAggregateTarget "ExpoFpFplan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE2A8F22D8324FF0CC80B5356A1D1C9 /* Debug */,
+				03BD7150CD5B9E0E141E2D33465B3072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
