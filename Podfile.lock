@@ -25,27 +25,27 @@ PODS:
   - CrowdConnectedIPS (1.4.0):
     - CrowdConnectedShared
   - CrowdConnectedShared (1.4.0)
-  - ExpoFpCommon (4.0.0)
-  - ExpoFpCrowdConnected (4.0.0):
+  - ExpoFpCommon (4.0.1)
+  - ExpoFpCrowdConnected (4.0.1):
     - AWSKinesis (= 2.28.2)
     - CrowdConnectedCore (= 1.4.0)
     - CrowdConnectedGeo (= 1.4.0)
     - CrowdConnectedIPS (= 1.4.0)
-    - ExpoFpCommon (= 4.0.0)
-  - ExpoFpFplan (4.0.0):
-    - ExpoFpCommon (= 4.0.0)
-  - ExpoFpGpsProvider (4.0.0):
-    - ExpoFpCommon (= 4.0.0)
-  - ExpoFpIndoorAtlas (4.0.0):
-    - ExpoFpCommon (= 4.0.0)
+    - ExpoFpCommon (= 4.0.1)
+  - ExpoFpFplan (4.0.1):
+    - ExpoFpCommon (= 4.0.1)
+  - ExpoFpGpsProvider (4.0.1):
+    - ExpoFpCommon (= 4.0.1)
+  - ExpoFpIndoorAtlas (4.0.1):
+    - ExpoFpCommon (= 4.0.1)
     - IndoorAtlas (~> 3.6)
   - IndoorAtlas (3.6.2)
 
 DEPENDENCIES:
-  - ExpoFpCrowdConnected (= 4.0.0)
-  - ExpoFpFplan (= 4.0.0)
-  - ExpoFpGpsProvider (= 4.0.0)
-  - ExpoFpIndoorAtlas (= 4.0.0)
+  - ExpoFpCrowdConnected (= 4.0.1)
+  - ExpoFpFplan (= 4.0.1)
+  - ExpoFpGpsProvider (= 4.0.1)
+  - ExpoFpIndoorAtlas (= 4.0.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -79,13 +79,13 @@ SPEC CHECKSUMS:
   CrowdConnectedGeo: cf4a10afda7347861c28ad30e71f9d4e79f82875
   CrowdConnectedIPS: 83ea186595aefb164ec6f4f76b6c24db359770ee
   CrowdConnectedShared: 8aa8ba584aeebdc9bfad7c9ea78d335652ed99fe
-  ExpoFpCommon: 7dc15374e89fd25a2f784d313565046deee288dd
-  ExpoFpCrowdConnected: d3f405823bc7dda76c75f724d1e50a346c379816
-  ExpoFpFplan: 6a6273b4ceee36298a03f088e91d40613e27d22f
-  ExpoFpGpsProvider: 2a0cb026a9b947b65ae3bb127c294669399aaf0c
-  ExpoFpIndoorAtlas: 2c68c2a8f9a92a4b475042f375fd1f6e3648d158
+  ExpoFpCommon: 6bced07c10498333a7d7c202a0c7d9bc8803d143
+  ExpoFpCrowdConnected: 77c0cc4ca92ebfc00bf923f7df6e05d6286bdde6
+  ExpoFpFplan: 3abae9c1b7c26d8abe5cc0209b2a8df7856a171a
+  ExpoFpGpsProvider: 89260a07974bed731f19a8b15eb58a7bdcf51482
+  ExpoFpIndoorAtlas: 31a0ed927ce44efec5d44543fb0a824630efb39b
   IndoorAtlas: 8da6339bac1923d92e7546865a85834de17f4b48
 
-PODFILE CHECKSUM: 8a9c77d91ab47299adc006d5f2777ad2791915ea
+PODFILE CHECKSUM: 0c3e3b23b952863bc134ca872ad612be8e8b7863
 
 COCOAPODS: 1.11.3

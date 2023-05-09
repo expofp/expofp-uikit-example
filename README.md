@@ -1,8 +1,17 @@
 # ExpoFP Fplan - iOS library for displaying expo plans
 
-This is an example of how you can integrate ExpoFP maps into an ios(UIKit) application.
+This is an example of how you can integrate ExpoFP floor plan into an iOS(UIKit) application.
 
 Documentation: https://expofp.github.io/expofp-mobile-sdk/ios-sdk/
+
+## Installation
+
+```js
+  pod 'ExpoFpFplan', '4.0.1'
+  pod 'ExpoFpCrowdConnected', '4.0.1'
+  pod 'ExpoFpIndoorAtlas', '4.0.1'
+  pod 'ExpoFpGpsProvider', '4.0.1'
+```
 
 ## Code example
 
