@@ -7,10 +7,7 @@ Documentation: https://expofp.github.io/expofp-mobile-sdk/ios-sdk/
 ## Installation
 
 ```js
-  pod 'ExpoFpFplan', '4.0.1'
-  pod 'ExpoFpCrowdConnected', '4.0.1'
-  pod 'ExpoFpIndoorAtlas', '4.0.1'
-  pod 'ExpoFpGpsProvider', '4.0.1'
+  pod 'ExpoFpFplan', '4.0.2'
 ```
 
 ## Code example
