@@ -176,12 +176,42 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSKinesis/AWSKinesis.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CrowdConnectedCore/CrowdConnectedCore.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CrowdConnectedGeo/CrowdConnectedGeo.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CrowdConnectedIPS/CrowdConnectedIPS.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CrowdConnectedShared/CrowdConnectedShared.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpCommon/ExpoFpCommon.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpCrowdConnected/ExpoFpCrowdConnected.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpFplan/ExpoFpFplan.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpGpsProvider/ExpoFpGpsProvider.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpIndoorAtlas/ExpoFpIndoorAtlas.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/IndoorAtlas/IndoorAtlas.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSKinesis/AWSKinesis.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CrowdConnectedCore/CrowdConnectedCore.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CrowdConnectedGeo/CrowdConnectedGeo.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CrowdConnectedIPS/CrowdConnectedIPS.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CrowdConnectedShared/CrowdConnectedShared.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpCommon/ExpoFpCommon.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpCrowdConnected/ExpoFpCrowdConnected.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpFplan/ExpoFpFplan.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpGpsProvider/ExpoFpGpsProvider.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpIndoorAtlas/ExpoFpIndoorAtlas.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/IndoorAtlas/IndoorAtlas.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -15,8 +15,19 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="3Dk-fE-bZD">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                            </activityIndicatorView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3Dk-fE-bZD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CzP-SY-Js8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Dk-fE-bZD" secondAttribute="trailing" id="ICl-Qx-nHx"/>
+                            <constraint firstItem="3Dk-fE-bZD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Izq-sO-Wfa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3Dk-fE-bZD" secondAttribute="bottom" id="zPU-jh-UgE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>

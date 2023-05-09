@@ -5,7 +5,10 @@ platform :ios, '14.0'
 use_frameworks!
 
 def shared_pods
-  pod 'ExpoFpFplan', '0.3.1.1'
+  pod 'ExpoFpFplan', '4.0.0'
+  pod 'ExpoFpCrowdConnected', '4.0.0'
+  pod 'ExpoFpIndoorAtlas', '4.0.0'
+  pod 'ExpoFpGpsProvider', '4.0.0'
 end
 
 target 'FplanUiKit' do
