@@ -19,86 +19,156 @@
 		};
 		E0854FE4B0DC6C5828BAE2E046665478 /* ExpoFpFplan */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = FA4DDD21EF82A19AD266597082FA7F70 /* Build configuration list for PBXAggregateTarget "ExpoFpFplan" */;
+			buildConfigurationList = 4F8CC06E1B4764DD5C454DF9410DDC18 /* Build configuration list for PBXAggregateTarget "ExpoFpFplan" */;
 			buildPhases = (
-				32A1514D210C926A33E5E2F9B99343AD /* [CP] Copy XCFrameworks */,
+				8E044E54D958CD2871B65923FF9813DA /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				151F755FC20CAB92363A8902FC8244BE /* PBXTargetDependency */,
+				470801D7A6822C02B36D57EF4A5064A3 /* PBXTargetDependency */,
+				F824817D97C9253B3D305A546EE72EBE /* PBXTargetDependency */,
 			);
 			name = ExpoFpFplan;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1CCEED8481994C10D7B926793F073D22 /* Pods-FplanUiKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A80A1CB16FCC1F2074C7BA01069D26C /* Pods-FplanUiKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BC341D8474D8E5C4AD53EF1BA1DD819 /* Pods-FplanUiKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA9E4E0284A92DC2EA0BF4BDF6D4BF /* Pods-FplanUiKit-dummy.m */; };
-		EDEB338CB1797D2C8BB2036E26602D84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		09489CB61E9FE41748183F890B809158 /* Entry+ZIP64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E723BD27C3D89B0B4CF6D366BB27DE5 /* Entry+ZIP64.swift */; };
+		10FCBF1EBA2479A5BE5FC318D2502DE3 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F290B8A8E7009918257182571823DA58 /* Archive.swift */; };
+		15DF05388A8BF974D05EE260D3D8644E /* Archive+MemoryFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE215A0761836CC2F554659DC4AC881 /* Archive+MemoryFile.swift */; };
+		28A8CD569E543A05004C42262A56E6CC /* Pods-FplanUiKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA9E4E0284A92DC2EA0BF4BDF6D4BF /* Pods-FplanUiKit-dummy.m */; };
+		3E2042080A12E045E6CD151E50C6F0BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3EC7583E3AF68ED13C98FBF40CA5D757 /* Data+CompressionDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FFC989320E404094A85A8968EDD45A /* Data+CompressionDeprecated.swift */; };
+		447F4B9164A4EB80A858D672D6BD4F2C /* Archive+BackingConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFDEACCE55C5DDC63FBEF2BD5EF436F /* Archive+BackingConfiguration.swift */; };
+		49AF03769C038032E5A8A0FF4C8685E3 /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87A570ED82B17379342FA5E6F9DA0C2 /* Data+Serialization.swift */; };
+		49E6DAEBC9A9AEF778CCB5A1B4ACE0A7 /* Archive+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A133063A9189D73A841C942C2B1999C /* Archive+Helpers.swift */; };
+		5C59344CA069903B212FF49CDE5F6497 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3499AE72D98828A3F895E25B2F90F00 /* Entry.swift */; };
+		5D19F72A072DB4A7DD8CA4E755C71692 /* ZIPFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0690E375D1891D58422588A1E48511 /* ZIPFoundation-dummy.m */; };
+		6A5A60BB69AFE0895F2BF9F5ACEF6050 /* URL+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69998889E33539D5239F9DD02DD71B0B /* URL+ZIP.swift */; };
+		6BFB792B6C4849DCFAF4AA0386DBFCEC /* Pods-FplanUiKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A80A1CB16FCC1F2074C7BA01069D26C /* Pods-FplanUiKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72EBD01ECE26F82ADF6BB351FC130C0C /* Archive+ReadingDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A723AE5A6A4FA133A81B19ABFA1EBFA8 /* Archive+ReadingDeprecated.swift */; };
+		8D98BB7BD52C9FAA0F876322B4F617D9 /* ZIPFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6170B3F7706CAC9977E16A7441405988 /* ZIPFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BE236B0B03959349C895EC94CE8CFDD /* Archive+WritingDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6C9FA4710411939F43604094827E1 /* Archive+WritingDeprecated.swift */; };
+		B01ED8D0FDB9BE8C42E929E324B01E2E /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99501A268DFBA9840E7DB81773DDAC /* Archive+Writing.swift */; };
+		B47E7BE135534500F56CAEEF12BED5ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B4DEF35198EEFB4199F087F95660EC2A /* Archive+ZIP64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281C13961C93DF182FD10CBE0B1B7F56 /* Archive+ZIP64.swift */; };
+		BEED03A150C703F1FEA8817C39DCB830 /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA62F4A375014EAA3D5E9D0165E05DC /* Archive+Reading.swift */; };
+		C91886AFEF23CD3571C823A5C4085E9D /* Archive+Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0651D9C9DD89DEA4DACC4D6E12CC27 /* Archive+Progress.swift */; };
+		DA9D80F40CEE66238984F33E4E54545D /* Entry+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A67B6E3E6C3DB3D3EE8B3F4D473B2 /* Entry+Serialization.swift */; };
+		F6882825BF4A2439D5AF0D986FE59BB1 /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D85287599CDE75BB3F2921676A6DF /* Data+Compression.swift */; };
+		F7B784976E2228AAFC931939714582EA /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77564D8D1A111AEF3830C5F72A9E03A /* FileManager+ZIP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		09A3D8A2A4FD73461C4571D327E46FDD /* PBXContainerItemProxy */ = {
+		30A8D1B80433F9F855C6400A6179CBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA15C8469D67684160CC2A7098EB841C;
+			remoteInfo = ZIPFoundation;
+		};
+		4DA7A84FA94F8F40FD6B5055A39043DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 493E430097FB044EFFC9C893372A5370;
+			remoteInfo = ExpoFpCommon;
+		};
+		7527AF3717DA6CD489907E818482051B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 493E430097FB044EFFC9C893372A5370;
+			remoteInfo = ExpoFpCommon;
+		};
+		A2F14A7AC3C3C98EC1416FDF941524B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA15C8469D67684160CC2A7098EB841C;
+			remoteInfo = ZIPFoundation;
+		};
+		E16FBCD36BEFDC2031E8185D09EBFC77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E0854FE4B0DC6C5828BAE2E046665478;
 			remoteInfo = ExpoFpFplan;
 		};
-		38B50FA40632F148489DCF379D7A3187 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 493E430097FB044EFFC9C893372A5370;
-			remoteInfo = ExpoFpCommon;
-		};
-		9DC75C36CD6E1A36451B6C1B914D3DCC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 493E430097FB044EFFC9C893372A5370;
-			remoteInfo = ExpoFpCommon;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		163E4F04A304A55A4112AA0C329532E6 /* ExpoFpCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ExpoFpCommon.xcframework; path = xcframework/ExpoFpCommon.xcframework; sourceTree = "<group>"; };
-		2320E79CAB6FEA9C9A20D29635C052D3 /* ExpoFpCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpCommon.release.xcconfig; sourceTree = "<group>"; };
-		40E44C502B9381F4C984BBFF17B94861 /* ExpoFpFplan-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ExpoFpFplan-xcframeworks.sh"; sourceTree = "<group>"; };
+		039D9EC55FF136E960FD4B3D2BA97220 /* ExpoFpCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ExpoFpCommon.xcframework; path = xcframework/ExpoFpCommon.xcframework; sourceTree = "<group>"; };
+		1BA62F4A375014EAA3D5E9D0165E05DC /* Archive+Reading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Reading.swift"; path = "Sources/ZIPFoundation/Archive+Reading.swift"; sourceTree = "<group>"; };
+		24CE827754D80E474F8A48C28E7460E3 /* ExpoFpCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpCommon.release.xcconfig; sourceTree = "<group>"; };
+		258D85287599CDE75BB3F2921676A6DF /* Data+Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Compression.swift"; path = "Sources/ZIPFoundation/Data+Compression.swift"; sourceTree = "<group>"; };
+		281C13961C93DF182FD10CBE0B1B7F56 /* Archive+ZIP64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+ZIP64.swift"; path = "Sources/ZIPFoundation/Archive+ZIP64.swift"; sourceTree = "<group>"; };
+		2A133063A9189D73A841C942C2B1999C /* Archive+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Helpers.swift"; path = "Sources/ZIPFoundation/Archive+Helpers.swift"; sourceTree = "<group>"; };
+		2C0651D9C9DD89DEA4DACC4D6E12CC27 /* Archive+Progress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Progress.swift"; path = "Sources/ZIPFoundation/Archive+Progress.swift"; sourceTree = "<group>"; };
+		34F8FF26C14C4F844C6CF1604A548A62 /* ExpoFpCommon-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ExpoFpCommon-xcframeworks.sh"; sourceTree = "<group>"; };
+		48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZIPFoundation; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E723BD27C3D89B0B4CF6D366BB27DE5 /* Entry+ZIP64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Entry+ZIP64.swift"; path = "Sources/ZIPFoundation/Entry+ZIP64.swift"; sourceTree = "<group>"; };
+		6170B3F7706CAC9977E16A7441405988 /* ZIPFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-umbrella.h"; sourceTree = "<group>"; };
+		69998889E33539D5239F9DD02DD71B0B /* URL+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+ZIP.swift"; path = "Sources/ZIPFoundation/URL+ZIP.swift"; sourceTree = "<group>"; };
+		6A0690E375D1891D58422588A1E48511 /* ZIPFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIPFoundation-dummy.m"; sourceTree = "<group>"; };
 		6A80A1CB16FCC1F2074C7BA01069D26C /* Pods-FplanUiKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FplanUiKit-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75C1EBF995BF69A94C45CC9060B64AB2 /* ExpoFpFplan.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ExpoFpFplan.xcframework; path = xcframework/ExpoFpFplan.xcframework; sourceTree = "<group>"; };
+		7E6D4C54B7C2E70F3B1D27B1028770B8 /* ZIPFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIPFoundation.release.xcconfig; sourceTree = "<group>"; };
 		7FE4B26B1DDF30F8CB33D96240373525 /* Pods-FplanUiKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FplanUiKit.modulemap"; sourceTree = "<group>"; };
 		85B1028F3982191FB4F1945EE860605B /* Pods-FplanUiKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FplanUiKit.debug.xcconfig"; sourceTree = "<group>"; };
 		88D8971CCFE6AAD5DC24CCB7C9FB8815 /* Pods-FplanUiKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FplanUiKit-Info.plist"; sourceTree = "<group>"; };
+		89AEB97F350B03350B7414500C04CA91 /* ExpoFpFplan.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ExpoFpFplan.xcframework; path = xcframework/ExpoFpFplan.xcframework; sourceTree = "<group>"; };
 		8C0D9B099D40E45F0FABF52025E3C808 /* Pods-FplanUiKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FplanUiKit"; path = Pods_FplanUiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		925A67B6E3E6C3DB3D3EE8B3F4D473B2 /* Entry+Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Entry+Serialization.swift"; path = "Sources/ZIPFoundation/Entry+Serialization.swift"; sourceTree = "<group>"; };
+		97794FFD8271399D096F3CC10F80E5D9 /* ZIPFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIPFoundation.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A486B297E97D6D17BE3EF3D4CDE154C1 /* ExpoFpCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpCommon.debug.xcconfig; sourceTree = "<group>"; };
-		AA5B9124CCD38DD512B6B17303D88261 /* ExpoFpFplan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpFplan.debug.xcconfig; sourceTree = "<group>"; };
-		AEA19A96E7887C4E7E8F2CA66E01E687 /* ExpoFpFplan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpFplan.release.xcconfig; sourceTree = "<group>"; };
-		B1ACCC44ED0EAA3A73FE20AA0F36D7CE /* ExpoFpCommon-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ExpoFpCommon-xcframeworks.sh"; sourceTree = "<group>"; };
+		A30A1B095BF9142204FE1D7668FC958E /* ZIPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-prefix.pch"; sourceTree = "<group>"; };
+		A723AE5A6A4FA133A81B19ABFA1EBFA8 /* Archive+ReadingDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+ReadingDeprecated.swift"; path = "Sources/ZIPFoundation/Archive+ReadingDeprecated.swift"; sourceTree = "<group>"; };
+		A8FFC989320E404094A85A8968EDD45A /* Data+CompressionDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+CompressionDeprecated.swift"; path = "Sources/ZIPFoundation/Data+CompressionDeprecated.swift"; sourceTree = "<group>"; };
+		AAD60F2C9BA5176A627C263957F08259 /* ExpoFpFplan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpFplan.debug.xcconfig; sourceTree = "<group>"; };
+		B003EF526986EE39382D0CDEE43E1285 /* ZIPFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZIPFoundation.modulemap; sourceTree = "<group>"; };
+		B82A21D6F1712135BCBE3087EB008FD6 /* ExpoFpFplan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpFplan.release.xcconfig; sourceTree = "<group>"; };
 		BDBA9E4E0284A92DC2EA0BF4BDF6D4BF /* Pods-FplanUiKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FplanUiKit-dummy.m"; sourceTree = "<group>"; };
+		C3499AE72D98828A3F895E25B2F90F00 /* Entry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = Sources/ZIPFoundation/Entry.swift; sourceTree = "<group>"; };
+		C64CC8A6B0849E68398186C9376F1FE5 /* ExpoFpFplan-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ExpoFpFplan-xcframeworks.sh"; sourceTree = "<group>"; };
+		C78618CF76C9F0D0744477F6E6999CA1 /* ExpoFpCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpCommon.debug.xcconfig; sourceTree = "<group>"; };
 		CFDB37F04CF3700D4AA550A3262F31EB /* Pods-FplanUiKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FplanUiKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2045C14BC91D1EC605B7C4FFE91463E /* ZIPFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZIPFoundation-Info.plist"; sourceTree = "<group>"; };
+		D2B6C9FA4710411939F43604094827E1 /* Archive+WritingDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+WritingDeprecated.swift"; path = "Sources/ZIPFoundation/Archive+WritingDeprecated.swift"; sourceTree = "<group>"; };
+		DE99501A268DFBA9840E7DB81773DDAC /* Archive+Writing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Writing.swift"; path = "Sources/ZIPFoundation/Archive+Writing.swift"; sourceTree = "<group>"; };
 		E0BB74B52C89997582EB1CC76A1C6F61 /* Pods-FplanUiKit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FplanUiKit-frameworks.sh"; sourceTree = "<group>"; };
+		E87A570ED82B17379342FA5E6F9DA0C2 /* Data+Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Serialization.swift"; path = "Sources/ZIPFoundation/Data+Serialization.swift"; sourceTree = "<group>"; };
 		EAF6D0CB109BF332A5C6ABB69B13612F /* Pods-FplanUiKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FplanUiKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAFDEACCE55C5DDC63FBEF2BD5EF436F /* Archive+BackingConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+BackingConfiguration.swift"; path = "Sources/ZIPFoundation/Archive+BackingConfiguration.swift"; sourceTree = "<group>"; };
 		EFCEFE7992BC029C2E957EEDA5D3A9D6 /* Pods-FplanUiKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FplanUiKit.release.xcconfig"; sourceTree = "<group>"; };
+		F290B8A8E7009918257182571823DA58 /* Archive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Archive.swift; path = Sources/ZIPFoundation/Archive.swift; sourceTree = "<group>"; };
+		F77564D8D1A111AEF3830C5F72A9E03A /* FileManager+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+ZIP.swift"; path = "Sources/ZIPFoundation/FileManager+ZIP.swift"; sourceTree = "<group>"; };
+		FBE215A0761836CC2F554659DC4AC881 /* Archive+MemoryFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+MemoryFile.swift"; path = "Sources/ZIPFoundation/Archive+MemoryFile.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		564F37AD8C55C3EA96E33E91D1D1EF72 /* Frameworks */ = {
+		F0F0B227206C688B61FBA32C1D31C765 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDEB338CB1797D2C8BB2036E26602D84 /* Foundation.framework in Frameworks */,
+				B47E7BE135534500F56CAEEF12BED5ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5653D561128396DC650F9E81DDFD2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2042080A12E045E6CD151E50C6F0BE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		019DA17DA2EA608B1B91BD2DEEC4F4A0 /* Frameworks */ = {
+		05311E10FF013015FE23784A242CC132 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				75C1EBF995BF69A94C45CC9060B64AB2 /* ExpoFpFplan.xcframework */,
+				89AEB97F350B03350B7414500C04CA91 /* ExpoFpFplan.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,15 +181,40 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		07C22CF2DADBB616C5C5DC85A67C687A /* Support Files */ = {
+		072CA4F645F0214DA8DC0689FF3BA949 /* ZIPFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				40E44C502B9381F4C984BBFF17B94861 /* ExpoFpFplan-xcframeworks.sh */,
-				AA5B9124CCD38DD512B6B17303D88261 /* ExpoFpFplan.debug.xcconfig */,
-				AEA19A96E7887C4E7E8F2CA66E01E687 /* ExpoFpFplan.release.xcconfig */,
+				F290B8A8E7009918257182571823DA58 /* Archive.swift */,
+				EAFDEACCE55C5DDC63FBEF2BD5EF436F /* Archive+BackingConfiguration.swift */,
+				2A133063A9189D73A841C942C2B1999C /* Archive+Helpers.swift */,
+				FBE215A0761836CC2F554659DC4AC881 /* Archive+MemoryFile.swift */,
+				2C0651D9C9DD89DEA4DACC4D6E12CC27 /* Archive+Progress.swift */,
+				1BA62F4A375014EAA3D5E9D0165E05DC /* Archive+Reading.swift */,
+				A723AE5A6A4FA133A81B19ABFA1EBFA8 /* Archive+ReadingDeprecated.swift */,
+				DE99501A268DFBA9840E7DB81773DDAC /* Archive+Writing.swift */,
+				D2B6C9FA4710411939F43604094827E1 /* Archive+WritingDeprecated.swift */,
+				281C13961C93DF182FD10CBE0B1B7F56 /* Archive+ZIP64.swift */,
+				258D85287599CDE75BB3F2921676A6DF /* Data+Compression.swift */,
+				A8FFC989320E404094A85A8968EDD45A /* Data+CompressionDeprecated.swift */,
+				E87A570ED82B17379342FA5E6F9DA0C2 /* Data+Serialization.swift */,
+				C3499AE72D98828A3F895E25B2F90F00 /* Entry.swift */,
+				925A67B6E3E6C3DB3D3EE8B3F4D473B2 /* Entry+Serialization.swift */,
+				4E723BD27C3D89B0B4CF6D366BB27DE5 /* Entry+ZIP64.swift */,
+				F77564D8D1A111AEF3830C5F72A9E03A /* FileManager+ZIP.swift */,
+				69998889E33539D5239F9DD02DD71B0B /* URL+ZIP.swift */,
+				3D86A376D9F403C76AAA48E51C601440 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ExpoFpFplan";
+			name = ZIPFoundation;
+			path = ZIPFoundation;
+			sourceTree = "<group>";
+		};
+		1C434955E4C9DB449BB23155614DBF84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C0D9B099D40E45F0FABF52025E3C808 /* Pods-FplanUiKit */,
+				48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		2AE3209869A21563C1DE269809B7BD2A /* Pods-FplanUiKit */ = {
@@ -139,13 +234,19 @@
 			path = "Target Support Files/Pods-FplanUiKit";
 			sourceTree = "<group>";
 		};
-		4417E4A7E4C33370D499C82EA13F65F8 /* Pods */ = {
+		3D86A376D9F403C76AAA48E51C601440 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				93E05FD20D79600D0EF65768FBD9E17E /* ExpoFpCommon */,
-				CA30DD18BA77A9158A7605A3700119A0 /* ExpoFpFplan */,
+				B003EF526986EE39382D0CDEE43E1285 /* ZIPFoundation.modulemap */,
+				6A0690E375D1891D58422588A1E48511 /* ZIPFoundation-dummy.m */,
+				D2045C14BC91D1EC605B7C4FFE91463E /* ZIPFoundation-Info.plist */,
+				A30A1B095BF9142204FE1D7668FC958E /* ZIPFoundation-prefix.pch */,
+				6170B3F7706CAC9977E16A7441405988 /* ZIPFoundation-umbrella.h */,
+				97794FFD8271399D096F3CC10F80E5D9 /* ZIPFoundation.debug.xcconfig */,
+				7E6D4C54B7C2E70F3B1D27B1028770B8 /* ZIPFoundation.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/ZIPFoundation";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -156,43 +257,53 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		93E05FD20D79600D0EF65768FBD9E17E /* ExpoFpCommon */ = {
+		57BB97DD90A5BCE8D2B87FAEB0A1E534 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE60BA6CEDEF31E4CDAA93FD8200FA45 /* Frameworks */,
-				A3B996E409E362E8E3FCD48DE66CE322 /* Support Files */,
-			);
-			name = ExpoFpCommon;
-			path = ExpoFpCommon;
-			sourceTree = "<group>";
-		};
-		A3B996E409E362E8E3FCD48DE66CE322 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B1ACCC44ED0EAA3A73FE20AA0F36D7CE /* ExpoFpCommon-xcframeworks.sh */,
-				A486B297E97D6D17BE3EF3D4CDE154C1 /* ExpoFpCommon.debug.xcconfig */,
-				2320E79CAB6FEA9C9A20D29635C052D3 /* ExpoFpCommon.release.xcconfig */,
+				34F8FF26C14C4F844C6CF1604A548A62 /* ExpoFpCommon-xcframeworks.sh */,
+				C78618CF76C9F0D0744477F6E6999CA1 /* ExpoFpCommon.debug.xcconfig */,
+				24CE827754D80E474F8A48C28E7460E3 /* ExpoFpCommon.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ExpoFpCommon";
 			sourceTree = "<group>";
 		};
-		BE60BA6CEDEF31E4CDAA93FD8200FA45 /* Frameworks */ = {
+		591E33AA0136ED93420BFC9CB7F21330 /* ExpoFpFplan */ = {
 			isa = PBXGroup;
 			children = (
-				163E4F04A304A55A4112AA0C329532E6 /* ExpoFpCommon.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CA30DD18BA77A9158A7605A3700119A0 /* ExpoFpFplan */ = {
-			isa = PBXGroup;
-			children = (
-				019DA17DA2EA608B1B91BD2DEEC4F4A0 /* Frameworks */,
-				07C22CF2DADBB616C5C5DC85A67C687A /* Support Files */,
+				05311E10FF013015FE23784A242CC132 /* Frameworks */,
+				F4C5A722D4BD9325D984122E6B45F9B3 /* Support Files */,
 			);
 			name = ExpoFpFplan;
 			path = ExpoFpFplan;
+			sourceTree = "<group>";
+		};
+		74AD195ADC7CD15CBB62DD5A3D998720 /* ExpoFpCommon */ = {
+			isa = PBXGroup;
+			children = (
+				BEEF3B04CB3365FF5807F713C795915C /* Frameworks */,
+				57BB97DD90A5BCE8D2B87FAEB0A1E534 /* Support Files */,
+			);
+			name = ExpoFpCommon;
+			path = ExpoFpCommon;
+			sourceTree = "<group>";
+		};
+		9496963B2158594E532836B4F801813C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74AD195ADC7CD15CBB62DD5A3D998720 /* ExpoFpCommon */,
+				591E33AA0136ED93420BFC9CB7F21330 /* ExpoFpFplan */,
+				072CA4F645F0214DA8DC0689FF3BA949 /* ZIPFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEEF3B04CB3365FF5807F713C795915C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				039D9EC55FF136E960FD4B3D2BA97220 /* ExpoFpCommon.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -200,8 +311,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				4417E4A7E4C33370D499C82EA13F65F8 /* Pods */,
-				F395D317357710342E04514AC06CE249 /* Products */,
+				9496963B2158594E532836B4F801813C /* Pods */,
+				1C434955E4C9DB449BB23155614DBF84 /* Products */,
 				065C50E0468EF0400976D1D64E64F2D5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -214,22 +325,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F395D317357710342E04514AC06CE249 /* Products */ = {
+		F4C5A722D4BD9325D984122E6B45F9B3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8C0D9B099D40E45F0FABF52025E3C808 /* Pods-FplanUiKit */,
+				C64CC8A6B0849E68398186C9376F1FE5 /* ExpoFpFplan-xcframeworks.sh */,
+				AAD60F2C9BA5176A627C263957F08259 /* ExpoFpFplan.debug.xcconfig */,
+				B82A21D6F1712135BCBE3087EB008FD6 /* ExpoFpFplan.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/ExpoFpFplan";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9DA59C2CF74BCBBC796CB7910C59D2B4 /* Headers */ = {
+		0A44ECA754D025185A49F617A4927FB3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CCEED8481994C10D7B926793F073D22 /* Pods-FplanUiKit-umbrella.h in Headers */,
+				8D98BB7BD52C9FAA0F876322B4F617D9 /* ZIPFoundation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD638727C88F894AC4C214AC20B4960E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFB792B6C4849DCFAF4AA0386DBFCEC /* Pods-FplanUiKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,22 +360,41 @@
 /* Begin PBXNativeTarget section */
 		851A30EBDDBD21659C4DE234D72AF4A8 /* Pods-FplanUiKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA5A535F85955054B4335F388AEB268C /* Build configuration list for PBXNativeTarget "Pods-FplanUiKit" */;
+			buildConfigurationList = F2BDF88BF8C46151DAB01C477ECC5AEF /* Build configuration list for PBXNativeTarget "Pods-FplanUiKit" */;
 			buildPhases = (
-				9DA59C2CF74BCBBC796CB7910C59D2B4 /* Headers */,
-				94C8662BF87E5E5BB300C7A50775723F /* Sources */,
-				564F37AD8C55C3EA96E33E91D1D1EF72 /* Frameworks */,
-				62488244CC842C192F5A94CF231EC007 /* Resources */,
+				FD638727C88F894AC4C214AC20B4960E /* Headers */,
+				1359A298365817739CF25874BD818886 /* Sources */,
+				F0F0B227206C688B61FBA32C1D31C765 /* Frameworks */,
+				8EEB8D7BF3114803C54125F6883AD7EE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7B068DB43073DD00C475E6234C22DDC3 /* PBXTargetDependency */,
-				8CC3735400E33F3516752F116974ABA8 /* PBXTargetDependency */,
+				65B934645A3E4E5CCC4D18924BD7B863 /* PBXTargetDependency */,
+				0189D7158238EC7B8EDBD4A33F164E77 /* PBXTargetDependency */,
+				676CBA4AE9D0B1A41091B1063E3A24ED /* PBXTargetDependency */,
 			);
 			name = "Pods-FplanUiKit";
 			productName = Pods_FplanUiKit;
 			productReference = 8C0D9B099D40E45F0FABF52025E3C808 /* Pods-FplanUiKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D467A2E567FF305EBB6BC7036D32A5 /* Build configuration list for PBXNativeTarget "ZIPFoundation" */;
+			buildPhases = (
+				0A44ECA754D025185A49F617A4927FB3 /* Headers */,
+				89B3E6505D48C0C6AF2BC6E5606685E7 /* Sources */,
+				FC5653D561128396DC650F9E81DDFD2B /* Frameworks */,
+				CD6BDD5986A74697CABAF30B785E7B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZIPFoundation;
+			productName = ZIPFoundation;
+			productReference = 48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -274,19 +415,27 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F395D317357710342E04514AC06CE249 /* Products */;
+			productRefGroup = 1C434955E4C9DB449BB23155614DBF84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				493E430097FB044EFFC9C893372A5370 /* ExpoFpCommon */,
 				E0854FE4B0DC6C5828BAE2E046665478 /* ExpoFpFplan */,
 				851A30EBDDBD21659C4DE234D72AF4A8 /* Pods-FplanUiKit */,
+				AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		62488244CC842C192F5A94CF231EC007 /* Resources */ = {
+		8EEB8D7BF3114803C54125F6883AD7EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6BDD5986A74697CABAF30B785E7B64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -296,7 +445,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32A1514D210C926A33E5E2F9B99343AD /* [CP] Copy XCFrameworks */ = {
+		8E044E54D958CD2871B65923FF9813DA /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,57 +482,77 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		94C8662BF87E5E5BB300C7A50775723F /* Sources */ = {
+		1359A298365817739CF25874BD818886 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC341D8474D8E5C4AD53EF1BA1DD819 /* Pods-FplanUiKit-dummy.m in Sources */,
+				28A8CD569E543A05004C42262A56E6CC /* Pods-FplanUiKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89B3E6505D48C0C6AF2BC6E5606685E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FCBF1EBA2479A5BE5FC318D2502DE3 /* Archive.swift in Sources */,
+				447F4B9164A4EB80A858D672D6BD4F2C /* Archive+BackingConfiguration.swift in Sources */,
+				49E6DAEBC9A9AEF778CCB5A1B4ACE0A7 /* Archive+Helpers.swift in Sources */,
+				15DF05388A8BF974D05EE260D3D8644E /* Archive+MemoryFile.swift in Sources */,
+				C91886AFEF23CD3571C823A5C4085E9D /* Archive+Progress.swift in Sources */,
+				BEED03A150C703F1FEA8817C39DCB830 /* Archive+Reading.swift in Sources */,
+				72EBD01ECE26F82ADF6BB351FC130C0C /* Archive+ReadingDeprecated.swift in Sources */,
+				B01ED8D0FDB9BE8C42E929E324B01E2E /* Archive+Writing.swift in Sources */,
+				9BE236B0B03959349C895EC94CE8CFDD /* Archive+WritingDeprecated.swift in Sources */,
+				B4DEF35198EEFB4199F087F95660EC2A /* Archive+ZIP64.swift in Sources */,
+				F6882825BF4A2439D5AF0D986FE59BB1 /* Data+Compression.swift in Sources */,
+				3EC7583E3AF68ED13C98FBF40CA5D757 /* Data+CompressionDeprecated.swift in Sources */,
+				49AF03769C038032E5A8A0FF4C8685E3 /* Data+Serialization.swift in Sources */,
+				5C59344CA069903B212FF49CDE5F6497 /* Entry.swift in Sources */,
+				DA9D80F40CEE66238984F33E4E54545D /* Entry+Serialization.swift in Sources */,
+				09489CB61E9FE41748183F890B809158 /* Entry+ZIP64.swift in Sources */,
+				F7B784976E2228AAFC931939714582EA /* FileManager+ZIP.swift in Sources */,
+				6A5A60BB69AFE0895F2BF9F5ACEF6050 /* URL+ZIP.swift in Sources */,
+				5D19F72A072DB4A7DD8CA4E755C71692 /* ZIPFoundation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		151F755FC20CAB92363A8902FC8244BE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ExpoFpCommon;
-			target = 493E430097FB044EFFC9C893372A5370 /* ExpoFpCommon */;
-			targetProxy = 9DC75C36CD6E1A36451B6C1B914D3DCC /* PBXContainerItemProxy */;
-		};
-		7B068DB43073DD00C475E6234C22DDC3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ExpoFpCommon;
-			target = 493E430097FB044EFFC9C893372A5370 /* ExpoFpCommon */;
-			targetProxy = 38B50FA40632F148489DCF379D7A3187 /* PBXContainerItemProxy */;
-		};
-		8CC3735400E33F3516752F116974ABA8 /* PBXTargetDependency */ = {
+		0189D7158238EC7B8EDBD4A33F164E77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ExpoFpFplan;
 			target = E0854FE4B0DC6C5828BAE2E046665478 /* ExpoFpFplan */;
-			targetProxy = 09A3D8A2A4FD73461C4571D327E46FDD /* PBXContainerItemProxy */;
+			targetProxy = E16FBCD36BEFDC2031E8185D09EBFC77 /* PBXContainerItemProxy */;
+		};
+		470801D7A6822C02B36D57EF4A5064A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExpoFpCommon;
+			target = 493E430097FB044EFFC9C893372A5370 /* ExpoFpCommon */;
+			targetProxy = 4DA7A84FA94F8F40FD6B5055A39043DB /* PBXContainerItemProxy */;
+		};
+		65B934645A3E4E5CCC4D18924BD7B863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExpoFpCommon;
+			target = 493E430097FB044EFFC9C893372A5370 /* ExpoFpCommon */;
+			targetProxy = 7527AF3717DA6CD489907E818482051B /* PBXContainerItemProxy */;
+		};
+		676CBA4AE9D0B1A41091B1063E3A24ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZIPFoundation;
+			target = AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */;
+			targetProxy = 30A8D1B80433F9F855C6400A6179CBFA /* PBXContainerItemProxy */;
+		};
+		F824817D97C9253B3D305A546EE72EBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZIPFoundation;
+			target = AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */;
+			targetProxy = A2F14A7AC3C3C98EC1416FDF941524B0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03BD7150CD5B9E0E141E2D33465B3072 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEA19A96E7887C4E7E8F2CA66E01E687 /* ExpoFpFplan.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		246D205064422CC5E1B3783811E3BE82 /* Debug */ = {
+		05803D67C21BA0D1BEDF33BC18BDF568 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 85B1028F3982191FB4F1945EE860605B /* Pods-FplanUiKit.debug.xcconfig */;
 			buildSettings = {
@@ -422,7 +591,7 @@
 		};
 		3B5C9C92821E7A16133026B4D7A6FD64 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2320E79CAB6FEA9C9A20D29635C052D3 /* ExpoFpCommon.release.xcconfig */;
+			baseConfigurationReference = 24CE827754D80E474F8A48C28E7460E3 /* ExpoFpCommon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -504,6 +673,23 @@
 			};
 			name = Debug;
 		};
+		5E1C5EC3CBE935FBFEBAE72A5D006A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD60F2C9BA5176A627C263957F08259 /* ExpoFpFplan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -566,41 +752,78 @@
 			};
 			name = Release;
 		};
-		8CE2A8F22D8324FF0CC80B5356A1D1C9 /* Debug */ = {
+		941F0B3CF13B66F68B8E5666F8562AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA5B9124CCD38DD512B6B17303D88261 /* ExpoFpFplan.debug.xcconfig */;
+			baseConfigurationReference = 97794FFD8271399D096F3CC10F80E5D9 /* ZIPFoundation.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
+				PRODUCT_MODULE_NAME = ZIPFoundation;
+				PRODUCT_NAME = ZIPFoundation;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EE0C6D3DA5A9D13595D2518FC68A19B5 /* Debug */ = {
+		9FD7E01FCB46E852D26B3589C02ADE66 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A486B297E97D6D17BE3EF3D4CDE154C1 /* ExpoFpCommon.debug.xcconfig */;
+			baseConfigurationReference = 7E6D4C54B7C2E70F3B1D27B1028770B8 /* ZIPFoundation.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
+				PRODUCT_MODULE_NAME = ZIPFoundation;
+				PRODUCT_NAME = ZIPFoundation;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		FF3DC1BA9DA1E739535E102F89CF51C2 /* Release */ = {
+		BC9E3C8D61B85646674B0D900198EF86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFCEFE7992BC029C2E957EEDA5D3A9D6 /* Pods-FplanUiKit.release.xcconfig */;
 			buildSettings = {
@@ -638,9 +861,53 @@
 			};
 			name = Release;
 		};
+		CBED004B454DB1873D4528025C23D885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82A21D6F1712135BCBE3087EB008FD6 /* ExpoFpFplan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE0C6D3DA5A9D13595D2518FC68A19B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C78618CF76C9F0D0744477F6E6999CA1 /* ExpoFpCommon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38D467A2E567FF305EBB6BC7036D32A5 /* Build configuration list for PBXNativeTarget "ZIPFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941F0B3CF13B66F68B8E5666F8562AFA /* Debug */,
+				9FD7E01FCB46E852D26B3589C02ADE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -650,11 +917,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA5A535F85955054B4335F388AEB268C /* Build configuration list for PBXNativeTarget "Pods-FplanUiKit" */ = {
+		4F8CC06E1B4764DD5C454DF9410DDC18 /* Build configuration list for PBXAggregateTarget "ExpoFpFplan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				246D205064422CC5E1B3783811E3BE82 /* Debug */,
-				FF3DC1BA9DA1E739535E102F89CF51C2 /* Release */,
+				5E1C5EC3CBE935FBFEBAE72A5D006A4E /* Debug */,
+				CBED004B454DB1873D4528025C23D885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -668,11 +935,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA4DDD21EF82A19AD266597082FA7F70 /* Build configuration list for PBXAggregateTarget "ExpoFpFplan" */ = {
+		F2BDF88BF8C46151DAB01C477ECC5AEF /* Build configuration list for PBXNativeTarget "Pods-FplanUiKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8CE2A8F22D8324FF0CC80B5356A1D1C9 /* Debug */,
-				03BD7150CD5B9E0E141E2D33465B3072 /* Release */,
+				05803D67C21BA0D1BEDF33BC18BDF568 /* Debug */,
+				BC9E3C8D61B85646674B0D900198EF86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

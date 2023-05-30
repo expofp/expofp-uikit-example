@@ -5,7 +5,8 @@ platform :ios, '14.0'
 use_frameworks!
 
 def shared_pods
-  pod 'ExpoFpFplan', '4.0.2'
+  pod 'ExpoFpFplan', '4.0.3'
+  #pod 'ExpoFpFplan', :path => '/Users/vladimir/Xcode projects/expofp-fplan-ios'
 end
 
 target 'FplanUiKit' do
