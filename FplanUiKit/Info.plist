@@ -21,5 +21,35 @@
 			</array>
 		</dict>
 	</dict>
+
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
+
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>The app requires 'Always Allow' to provide you with security alerts and other relevant location-based promotions and contextual messages.</string>
+
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>The app requires 'Always Allow' to provide you with security alerts and other relevant location-based promotions and contextual messages.</string>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Only when you select 'Allow While Using App', you will be able to use indoor navigation features, access location based promotions and receive critical security alerts during the event.</string>
+
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Bluetooth requested for better positioning experience.</string>
+
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Bluetooth requested for better positioning experience.</string>
+
+	<key>NSMotionUsageDescription</key>
+	<string>NSMotionUsage requested for better positioning experience.</string>
+
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+    <dict>
+    	<key>NSLocationTemporaryUsageDescription</key>
+    	<string>NSLocationTemporaryUsage requested for better positioning experience.</string>
+    </dict>
+
 </dict>
 </plist>

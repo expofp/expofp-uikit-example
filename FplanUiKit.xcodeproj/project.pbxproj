@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71699BC94D278F7F4103E6D4 /* Pods_FplanUiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECCA6905C0151DFE32B00F /* Pods_FplanUiKit.framework */; };
 		E723066729C37B2D00977647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E723066629C37B2D00977647 /* AppDelegate.swift */; };
 		E723066929C37B2D00977647 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E723066829C37B2D00977647 /* SceneDelegate.swift */; };
 		E723066B29C37B2D00977647 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E723066A29C37B2D00977647 /* ViewController.swift */; };
 		E723066E29C37B2D00977647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E723066C29C37B2D00977647 /* Main.storyboard */; };
 		E723067029C37B2F00977647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E723066F29C37B2F00977647 /* Assets.xcassets */; };
 		E723067329C37B2F00977647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E723067129C37B2F00977647 /* LaunchScreen.storyboard */; };
+		E7DEA2072A265DB200CD1D97 /* Pods_FplanUiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECCA6905C0151DFE32B00F /* Pods_FplanUiKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71699BC94D278F7F4103E6D4 /* Pods_FplanUiKit.framework in Frameworks */,
+				E7DEA2072A265DB200CD1D97 /* Pods_FplanUiKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 				};
 			};
 			buildConfigurationList = E723065E29C37B2D00977647 /* Build configuration list for PBXProject "FplanUiKit" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -286,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -340,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -366,8 +366,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,8 +398,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

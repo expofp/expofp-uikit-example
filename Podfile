@@ -4,8 +4,13 @@ platform :ios, '14.0'
 
 use_frameworks!
 
+inhibit_all_warnings!
+
 def shared_pods
-  pod 'ExpoFpFplan', '4.0.3'
+  pod 'ExpoFpFplan', '4.1.1'
+  pod 'ExpoFpCrowdConnected', '4.1.1'
+  pod 'ExpoFpIndoorAtlas', '4.1.1'
+  pod 'ExpoFpGpsProvider', '4.1.1'
 end
 
 target 'FplanUiKit' do

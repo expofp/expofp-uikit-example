@@ -1,4 +1,19 @@
 ${PODS_ROOT}/Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework
+${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework
+${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework
+${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework
+${BUILT_PRODUCTS_DIR}/AWSKinesis/AWSKinesis.framework
+${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework
+${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework
 ${BUILT_PRODUCTS_DIR}/ZIPFoundation/ZIPFoundation.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CrowdConnectedCore/CrowdConnectedCore.framework/CrowdConnectedCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CrowdConnectedGeo/CrowdConnectedGeo.framework/CrowdConnectedGeo
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CrowdConnectedIPS/CrowdConnectedIPS.framework/CrowdConnectedIPS
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CrowdConnectedShared/CrowdConnectedShared.framework/CrowdConnectedShared
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpCommon/ExpoFpCommon.framework/ExpoFpCommon
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpCrowdConnected/ExpoFpCrowdConnected.framework/ExpoFpCrowdConnected
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpFplan/ExpoFpFplan.framework/ExpoFpFplan
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpGpsProvider/ExpoFpGpsProvider.framework/ExpoFpGpsProvider
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpIndoorAtlas/ExpoFpIndoorAtlas.framework/ExpoFpIndoorAtlas
+${PODS_XCFRAMEWORKS_BUILD_DIR}/IndoorAtlas/IndoorAtlas.framework/IndoorAtlas

@@ -1,4 +1,5 @@
 import UIKit
+import ExpoFpCommon
 import ExpoFpFplan
 
 class ViewController: UIViewController {
@@ -11,11 +12,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func selectExhibitor(_ sender: UIBarButtonItem) {
-        self.fplanUiView.selectExhibitor("RPMXPO")
+        self.fplanUiView?.selectExhibitor("RPMXPO")
     }
     
     @IBAction func setPosition(_ sender: UIBarButtonItem) {
-        self.fplanUiView.setCurrentPosition(BlueDotPoint(latitude: 38.180023, longitude: -85.845180), true)
+        self.fplanUiView?.setCurrentPosition(BlueDotPoint(latitude: 38.180023, longitude: -85.845180), true)
     }
     
     @IBAction func buildRoute(_ sender: UIBarButtonItem) {
@@ -23,7 +24,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clear(_ sender: UIBarButtonItem) {
-        self.fplanUiView.clear()
+        self.fplanUiView?.clear()
     }
     
     override func viewDidLoad() {
@@ -31,7 +32,6 @@ class ViewController: UIViewController {
         
         fplanUiView = UIFplanView()
         fplanUiView.translatesAutoresizingMaskIntoConstraints = false
-        
         container.addSubview(fplanUiView)
         
         fplanUiView.leadingAnchor.constraint(equalTo: container.leadingAnchor).isActive = true
@@ -65,7 +65,7 @@ class ViewController: UIViewController {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        fplanUiView.destoy()
+        fplanUiView?.destoy()
     }
 }
 
