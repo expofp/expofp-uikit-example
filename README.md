@@ -7,7 +7,7 @@ Documentation: https://expofp.github.io/expofp-mobile-sdk/ios-sdk/
 ## Installation
 
 ```js
-  pod 'ExpoFpFplan', '4.0.2'
+  pod 'ExpoFpFplan', '4.1.5'
 ```
 
 ## Code example
