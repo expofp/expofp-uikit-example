@@ -9,9 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		12537BEC833703BD5C8B75E2F75E59F1 /* CrowdConnectedShared */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 3B87E239189059E2B42E65601985B120 /* Build configuration list for PBXAggregateTarget "CrowdConnectedShared" */;
+			buildConfigurationList = 7DBA39E54B55396A1DD329B7347B2B37 /* Build configuration list for PBXAggregateTarget "CrowdConnectedShared" */;
 			buildPhases = (
-				D197D155DEB731CDFE302A653BB07D45 /* [CP] Copy XCFrameworks */,
+				3D6F64FA1E7CBCCDB3F45F42742547C1 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -99,14 +99,15 @@
 		};
 		B48916D274896F9BC8C5CDF89516C277 /* CrowdConnectedCore */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = FE0817D5E2D4353CD37978778A50F10A /* Build configuration list for PBXAggregateTarget "CrowdConnectedCore" */;
+			buildConfigurationList = 07349B96295DC2EA0C4196630414C306 /* Build configuration list for PBXAggregateTarget "CrowdConnectedCore" */;
 			buildPhases = (
-				A21E232F23EC401682FB3B411CA63356 /* [CP] Copy XCFrameworks */,
+				5B42C1F5756EE1160FADA6C71B3E464C /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				D81AE7109F08980035511FE5DA22F128 /* PBXTargetDependency */,
-				42550691905881AFF870DD64676F193A /* PBXTargetDependency */,
-				EA1F9A5C10C76996F522BC7C1E54D223 /* PBXTargetDependency */,
+				603B41BDEAB0ACFDA74B752467DB8630 /* PBXTargetDependency */,
+				E3285341540C305184DFCBE72D20DD7E /* PBXTargetDependency */,
+				C8505908A93F20BC2C83BBE811100249 /* PBXTargetDependency */,
+				6D6F256FA696A101698B57179C050FA4 /* PBXTargetDependency */,
 			);
 			name = CrowdConnectedCore;
 		};
@@ -553,13 +554,6 @@
 			remoteGlobalIDString = 9B172FACE90046AA5E100E650B6109DD;
 			remoteInfo = AWSCore;
 		};
-		30735DC1B507FC99D01A55DC9744936E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12537BEC833703BD5C8B75E2F75E59F1;
-			remoteInfo = CrowdConnectedShared;
-		};
 		32892351D9E7EB6611EE142FDCDD3714 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -644,6 +638,13 @@
 			remoteGlobalIDString = 9B172FACE90046AA5E100E650B6109DD;
 			remoteInfo = AWSCore;
 		};
+		6735928066C0D86C4AE6DFDB520DA460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6428ED7DAC8003D918A4F549769F079D;
+			remoteInfo = AWSMobileClient;
+		};
 		6832E68B0F5C9DE6A240907D28492067 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -700,19 +701,19 @@
 			remoteGlobalIDString = 493E430097FB044EFFC9C893372A5370;
 			remoteInfo = ExpoFpCommon;
 		};
-		986A357F2981B2C3F6D9AC26B1F3EDC6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6428ED7DAC8003D918A4F549769F079D;
-			remoteInfo = AWSMobileClient;
-		};
 		987412FFC42C36996B078E955E3BA45B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 12537BEC833703BD5C8B75E2F75E59F1;
 			remoteInfo = CrowdConnectedShared;
+		};
+		AB447B8A2E0E3D430CA299A42C4D7DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B6662199549F63C4645D3DDDBAF07B4;
+			remoteInfo = AWSKinesis;
 		};
 		B136C48906955CE05742A16C2D50836B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -727,6 +728,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 493E430097FB044EFFC9C893372A5370;
 			remoteInfo = ExpoFpCommon;
+		};
+		B8BCA5E963EB61AC1CFEDF4BE597AA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12537BEC833703BD5C8B75E2F75E59F1;
+			remoteInfo = CrowdConnectedShared;
 		};
 		C3906871AD9BAE39E5F9C828ED6E0F10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -748,13 +756,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 493E430097FB044EFFC9C893372A5370;
 			remoteInfo = ExpoFpCommon;
-		};
-		D082A2019C3202628B9F56AD791AC8FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E831B3C3EFD86D68870161A3C949893;
-			remoteInfo = AWSPinpoint;
 		};
 		D3BA233A0667FDFC00E288F5E49497C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -790,6 +791,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8042F2B0721B13AEDEB81F058C2B2125;
 			remoteInfo = AWSAuthCore;
+		};
+		F3557C0EE6E8CCFAF0306B87F78386ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E831B3C3EFD86D68870161A3C949893;
+			remoteInfo = AWSPinpoint;
 		};
 		F5AA00F8CF0720DC24D581A4B1E89AB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2848,6 +2856,40 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/ExpoFpGpsProvider/ExpoFpGpsProvider-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3D6F64FA1E7CBCCDB3F45F42742547C1 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/CrowdConnectedShared/CrowdConnectedShared-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/CrowdConnectedShared/CrowdConnectedShared-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/CrowdConnectedShared/CrowdConnectedShared-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B42C1F5756EE1160FADA6C71B3E464C /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/CrowdConnectedCore/CrowdConnectedCore-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/CrowdConnectedCore/CrowdConnectedCore-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/CrowdConnectedCore/CrowdConnectedCore-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8E044E54D958CD2871B65923FF9813DA /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2882,23 +2924,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/IndoorAtlas/IndoorAtlas-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A21E232F23EC401682FB3B411CA63356 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/CrowdConnectedCore/CrowdConnectedCore-xcframeworks-input-files.xcfilelist",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/CrowdConnectedCore/CrowdConnectedCore-xcframeworks-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/CrowdConnectedCore/CrowdConnectedCore-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A671DEDCC279E162939D83590C5510EE /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2931,23 +2956,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/CrowdConnectedGeo/CrowdConnectedGeo-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D197D155DEB731CDFE302A653BB07D45 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/CrowdConnectedShared/CrowdConnectedShared-xcframeworks-input-files.xcfilelist",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/CrowdConnectedShared/CrowdConnectedShared-xcframeworks-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/CrowdConnectedShared/CrowdConnectedShared-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D642D7E2C0220CC8772A42F47878F2CB /* [CP] Copy XCFrameworks */ = {
@@ -3308,12 +3316,6 @@
 			target = AA6E119C34F4DE60D4FFF46C6C2543EA /* IndoorAtlas */;
 			targetProxy = 1B6480CA27DA3C0F9169AE1F1F688E4E /* PBXContainerItemProxy */;
 		};
-		42550691905881AFF870DD64676F193A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AWSPinpoint;
-			target = 2E831B3C3EFD86D68870161A3C949893 /* AWSPinpoint */;
-			targetProxy = D082A2019C3202628B9F56AD791AC8FB /* PBXContainerItemProxy */;
-		};
 		45797FC9C0A100E043CEB7C1FCAFE8E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CrowdConnectedIPS;
@@ -3344,11 +3346,23 @@
 			target = 12537BEC833703BD5C8B75E2F75E59F1 /* CrowdConnectedShared */;
 			targetProxy = 49E811EEE80ED24B75292574D864B129 /* PBXContainerItemProxy */;
 		};
+		603B41BDEAB0ACFDA74B752467DB8630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWSKinesis;
+			target = 1B6662199549F63C4645D3DDDBAF07B4 /* AWSKinesis */;
+			targetProxy = AB447B8A2E0E3D430CA299A42C4D7DBC /* PBXContainerItemProxy */;
+		};
 		654E9FE9F62BEB10997897DD23B7EA54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AWSCognitoIdentityProviderASF;
 			target = BBF90BA4F6EC5653945C7B0FFD9128D2 /* AWSCognitoIdentityProviderASF */;
 			targetProxy = 86DB0BCFFC899CD0827728FCCEB6833D /* PBXContainerItemProxy */;
+		};
+		6D6F256FA696A101698B57179C050FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CrowdConnectedShared;
+			target = 12537BEC833703BD5C8B75E2F75E59F1 /* CrowdConnectedShared */;
+			targetProxy = B8BCA5E963EB61AC1CFEDF4BE597AA46 /* PBXContainerItemProxy */;
 		};
 		7091A57E7DCFA83F80E4062B3B0EBCF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3446,6 +3460,12 @@
 			target = 9B172FACE90046AA5E100E650B6109DD /* AWSCore */;
 			targetProxy = E22B7D4C02D3010E76252A27312AB7A9 /* PBXContainerItemProxy */;
 		};
+		C8505908A93F20BC2C83BBE811100249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWSPinpoint;
+			target = 2E831B3C3EFD86D68870161A3C949893 /* AWSPinpoint */;
+			targetProxy = F3557C0EE6E8CCFAF0306B87F78386ED /* PBXContainerItemProxy */;
+		};
 		CB73F34C9EC91813A8BCB70CA79A77A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AWSCognitoIdentityProvider;
@@ -3458,17 +3478,17 @@
 			target = 9B172FACE90046AA5E100E650B6109DD /* AWSCore */;
 			targetProxy = 2D756C1850E2DAF2A3CBDDDE4A3C058F /* PBXContainerItemProxy */;
 		};
-		D81AE7109F08980035511FE5DA22F128 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AWSMobileClient;
-			target = 6428ED7DAC8003D918A4F549769F079D /* AWSMobileClient */;
-			targetProxy = 986A357F2981B2C3F6D9AC26B1F3EDC6 /* PBXContainerItemProxy */;
-		};
 		DBEF7CDD5C7823A108F255243355A581 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AWSAuthCore;
 			target = 8042F2B0721B13AEDEB81F058C2B2125 /* AWSAuthCore */;
 			targetProxy = EDC050EE68500DC479398F77C30E5831 /* PBXContainerItemProxy */;
+		};
+		E3285341540C305184DFCBE72D20DD7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWSMobileClient;
+			target = 6428ED7DAC8003D918A4F549769F079D /* AWSMobileClient */;
+			targetProxy = 6735928066C0D86C4AE6DFDB520DA460 /* PBXContainerItemProxy */;
 		};
 		E3C483B5764211B1FE06E8F7994822C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3488,12 +3508,6 @@
 			target = 9B172FACE90046AA5E100E650B6109DD /* AWSCore */;
 			targetProxy = 446F4DB8F7089B8845A25420EBDDEAFA /* PBXContainerItemProxy */;
 		};
-		EA1F9A5C10C76996F522BC7C1E54D223 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CrowdConnectedShared;
-			target = 12537BEC833703BD5C8B75E2F75E59F1 /* CrowdConnectedShared */;
-			targetProxy = 30735DC1B507FC99D01A55DC9744936E /* PBXContainerItemProxy */;
-		};
 		F457B60B4807F38F689F8F9A7513B95D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ExpoFpCommon;
@@ -3509,24 +3523,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		058752E0A3A9E92BDCA80E0BD8BE31FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC6819CD53A663B3E7BB042A35A266B4 /* CrowdConnectedCore.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		0F516878195D3DA420B9D4BBFB50AD84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5242B47D100CF2F28869933BD3A9A05D /* AWSPinpoint.release.xcconfig */;
@@ -3617,23 +3613,6 @@
 		2D90F74371258701081E251143C6A81E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 540AA9BA046E0EC8C28928A944205A52 /* CrowdConnectedGeo.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2DA11E53C90F4931CBA4B6769DD4D0AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0915F4CCB43845C4BDCF939320494176 /* CrowdConnectedShared.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -3858,9 +3837,9 @@
 			};
 			name = Debug;
 		};
-		4D56157FEA4EAE97C3C1B1E3A236FD5E /* Debug */ = {
+		59D36B2B8BFE363E51DD7D53A9524A4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E636E2409F7C30BBA376F257534223B6 /* CrowdConnectedCore.debug.xcconfig */;
+			baseConfigurationReference = 0915F4CCB43845C4BDCF939320494176 /* CrowdConnectedShared.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -4372,6 +4351,42 @@
 			};
 			name = Debug;
 		};
+		91C38419CFB29908245307CDC8E94B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC6819CD53A663B3E7BB042A35A266B4 /* CrowdConnectedCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E4664F18AD75DB06AFE341AD910B5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365F8114E37C181A33424CF820DBE77F /* CrowdConnectedShared.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		A68E7F9F8AE0B3BA9DE7D2DB3C132D96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3F28F226135FE3D923AB6075979E0F1 /* AWSPinpoint.debug.xcconfig */;
@@ -4563,6 +4578,23 @@
 			};
 			name = Release;
 		};
+		E0A898CBEB7E041CB9AF50855F15BA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E636E2409F7C30BBA376F257534223B6 /* CrowdConnectedCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		E284D99FFCABBDC0E74A9B67AC9A3DB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B865D2761DCD839FCC7367D534B9DAC /* ExpoFpGpsProvider.release.xcconfig */;
@@ -4598,27 +4630,18 @@
 			};
 			name = Debug;
 		};
-		FC3634B2693E85240AF654473CC1EFCE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 365F8114E37C181A33424CF820DBE77F /* CrowdConnectedShared.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		07349B96295DC2EA0C4196630414C306 /* Build configuration list for PBXAggregateTarget "CrowdConnectedCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A898CBEB7E041CB9AF50855F15BA89 /* Debug */,
+				91C38419CFB29908245307CDC8E94B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		100C04E1DF8935BD70CA684A74B7FE93 /* Build configuration list for PBXNativeTarget "AWSCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4642,15 +4665,6 @@
 			buildConfigurations = (
 				D4FFEB920B1EF47C45CC49ABBB95D84F /* Debug */,
 				DBB58C2D24E181A86068DE332B92EBE8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B87E239189059E2B42E65601985B120 /* Build configuration list for PBXAggregateTarget "CrowdConnectedShared" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2DA11E53C90F4931CBA4B6769DD4D0AC /* Debug */,
-				FC3634B2693E85240AF654473CC1EFCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4696,6 +4710,15 @@
 			buildConfigurations = (
 				2D90F74371258701081E251143C6A81E /* Debug */,
 				A6B752210E3DE250D497D9F6CAC75774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DBA39E54B55396A1DD329B7347B2B37 /* Build configuration list for PBXAggregateTarget "CrowdConnectedShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D36B2B8BFE363E51DD7D53A9524A4F /* Debug */,
+				9E4664F18AD75DB06AFE341AD910B5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4777,15 +4800,6 @@
 			buildConfigurations = (
 				7DDE0A128C772408A4543A81CE578FF4 /* Debug */,
 				E284D99FFCABBDC0E74A9B67AC9A3DB6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE0817D5E2D4353CD37978778A50F10A /* Build configuration list for PBXAggregateTarget "CrowdConnectedCore" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D56157FEA4EAE97C3C1B1E3A236FD5E /* Debug */,
-				058752E0A3A9E92BDCA80E0BD8BE31FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

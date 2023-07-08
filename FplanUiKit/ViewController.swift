@@ -8,19 +8,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var container: UIView!
     
     @IBAction func selectBooth(_ sender: UIBarButtonItem) {
-        self.fplanUiView.selectBooth("544")
+        self.fplanUiView.selectBooth("305")
     }
     
     @IBAction func selectExhibitor(_ sender: UIBarButtonItem) {
-        self.fplanUiView?.selectExhibitor("RPMXPO")
+        self.fplanUiView?.selectExhibitor("Aria Style")
     }
     
     @IBAction func setPosition(_ sender: UIBarButtonItem) {
-        self.fplanUiView?.setCurrentPosition(BlueDotPoint(latitude: 38.180023, longitude: -85.845180), true)
+        self.fplanUiView?.setCurrentPosition(BlueDotPoint(x: 45000.00, y: 14000.00), true)
     }
     
     @IBAction func buildRoute(_ sender: UIBarButtonItem) {
-        self.fplanUiView.selectRoute(Route(from: "519", to: "656", exceptInaccessible: false))
+        self.fplanUiView.selectRoute(Route(from: "305", to: "339", exceptInaccessible: false))
     }
     
     @IBAction func clear(_ sender: UIBarButtonItem) {
@@ -43,6 +43,10 @@ class ViewController: UIViewController {
             print("[OnFpReady]")
         }
         
+        fplanUiView.setOnFpErrorCallback { errorCode, description in
+            print("[OnFpError] errorCode=\(errorCode); description=\(description)")
+        }
+        
         fplanUiView.setOnBoothClickCallback { id, name in
             print("[OnBoothClick] id=\(id); name=\(name)")
         }
@@ -61,7 +65,7 @@ class ViewController: UIViewController {
             print(details)
         }
         
-        fplanUiView.load("https://demo.expofp.com")
+        fplanUiView.load("https://demo.expofp.com/")
     }
     
     override func viewWillDisappear(_ animated: Bool) {
