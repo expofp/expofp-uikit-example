@@ -26,29 +26,29 @@ PODS:
   - CrowdConnectedIPS (1.5.2):
     - CrowdConnectedShared
   - CrowdConnectedShared (1.5.2)
-  - ExpoFpCommon (4.2.3)
-  - ExpoFpCrowdConnected (4.2.3):
+  - ExpoFpCommon (4.2.4)
+  - ExpoFpCrowdConnected (4.2.4):
     - AWSKinesis (~> 2.28.2)
     - CrowdConnectedCore (~> 1.5.2)
     - CrowdConnectedGeo (~> 1.5.2)
     - CrowdConnectedIPS (~> 1.5.2)
-    - ExpoFpCommon (= 4.2.3)
-  - ExpoFpFplan (4.2.3):
-    - ExpoFpCommon (= 4.2.3)
+    - ExpoFpCommon (= 4.2.4)
+  - ExpoFpFplan (4.2.4):
+    - ExpoFpCommon (= 4.2.4)
     - ZIPFoundation (~> 0.9.16)
-  - ExpoFpGpsProvider (4.2.3):
-    - ExpoFpCommon (= 4.2.3)
-  - ExpoFpIndoorAtlas (4.2.3):
-    - ExpoFpCommon (= 4.2.3)
+  - ExpoFpGpsProvider (4.2.4):
+    - ExpoFpCommon (= 4.2.4)
+  - ExpoFpIndoorAtlas (4.2.4):
+    - ExpoFpCommon (= 4.2.4)
     - IndoorAtlas (~> 3.6)
   - IndoorAtlas (3.6.3)
   - ZIPFoundation (0.9.16)
 
 DEPENDENCIES:
-  - ExpoFpCrowdConnected (= 4.2.3)
-  - ExpoFpFplan (= 4.2.3)
-  - ExpoFpGpsProvider (= 4.2.3)
-  - ExpoFpIndoorAtlas (= 4.2.3)
+  - ExpoFpCrowdConnected (= 4.2.4)
+  - ExpoFpFplan (= 4.2.4)
+  - ExpoFpGpsProvider (= 4.2.4)
+  - ExpoFpIndoorAtlas (= 4.2.4)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -83,14 +83,14 @@ SPEC CHECKSUMS:
   CrowdConnectedGeo: b08bd5fef551c923cced6ab24cd0cb8831d06d6d
   CrowdConnectedIPS: caf2105652e9339045623b76b9bc0539ffa55e76
   CrowdConnectedShared: 5397c46e18451903dcf65c99a3fa322e11f7daf0
-  ExpoFpCommon: 8719bfe77f2605d5db89b2c1b9535789ceeee5f1
-  ExpoFpCrowdConnected: ab85b79cff03d23380f49db410049fe293ecf510
-  ExpoFpFplan: c966c3e9b346ec80214a2424239833055aaa2ea5
-  ExpoFpGpsProvider: eeab5352f0f107c49a5e0de23921610ddd40d30e
-  ExpoFpIndoorAtlas: 9ba1561320cfc163bad4dae5d1fd4a127fa8893b
+  ExpoFpCommon: 9e289fe3a35ac9729fd09e43317a6889353bd907
+  ExpoFpCrowdConnected: 39d11830ee80bc6449dee7ccca9ab1b80199a32c
+  ExpoFpFplan: 1de9ba405ebf37aa750833b7acb3f07da0d99fb9
+  ExpoFpGpsProvider: 37d1c3a3b94f0c6b6b6058aae3494852bb172341
+  ExpoFpIndoorAtlas: cf6f213ab6f46aec0aaa8f5c7c415a6fc0db8c8b
   IndoorAtlas: d84e24bc8079e5525d606222abfb5c325c2b11e5
   ZIPFoundation: d170fa8e270b2a32bef9dcdcabff5b8f1a5deced
 
-PODFILE CHECKSUM: 47ada5be2f7d3f5c2da03a13573111baa74f6147
+PODFILE CHECKSUM: 597a077f51ce5e6264f96d38d10a300752875821
 
 COCOAPODS: 1.12.1
