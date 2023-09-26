@@ -191,7 +191,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpCommon/ExpoFpCommon.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpCrowdConnected/ExpoFpCrowdConnected.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpFplan/ExpoFpFplan.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpGpsProvider/ExpoFpGpsProvider.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpIndoorAtlas/ExpoFpIndoorAtlas.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/IndoorAtlas/IndoorAtlas.framework"
 fi
@@ -211,7 +210,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpCommon/ExpoFpCommon.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpCrowdConnected/ExpoFpCrowdConnected.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpFplan/ExpoFpFplan.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpGpsProvider/ExpoFpGpsProvider.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpIndoorAtlas/ExpoFpIndoorAtlas.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/IndoorAtlas/IndoorAtlas.framework"
 fi

@@ -14,6 +14,5 @@ ${PODS_XCFRAMEWORKS_BUILD_DIR}/CrowdConnectedShared/CrowdConnectedShared.framewo
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpCommon/ExpoFpCommon.framework/ExpoFpCommon
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpCrowdConnected/ExpoFpCrowdConnected.framework/ExpoFpCrowdConnected
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpFplan/ExpoFpFplan.framework/ExpoFpFplan
-${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpGpsProvider/ExpoFpGpsProvider.framework/ExpoFpGpsProvider
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoFpIndoorAtlas/ExpoFpIndoorAtlas.framework/ExpoFpIndoorAtlas
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/IndoorAtlas/IndoorAtlas.framework/IndoorAtlas
