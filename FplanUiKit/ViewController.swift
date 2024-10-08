@@ -47,8 +47,8 @@ class ViewController: UIViewController {
             print("[OnFpError] errorCode=\(errorCode); description=\(description)")
         }
         
-        fplanUiView.setOnBoothClickCallback { id, name in
-            print("[OnBoothClick] id=\(id); name=\(name)")
+        fplanUiView.setOnBoothClickCallback { booth in
+            print("[OnBoothClick] id=\(booth.id); name=\(booth.name)")
         }
         
         fplanUiView.setOnBuildDirectionCallback { direction in

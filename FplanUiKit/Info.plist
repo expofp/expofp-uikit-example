@@ -25,7 +25,14 @@
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
+		<string>processing</string>
+		<string>fetch</string>
 	</array>
+
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+<array>
+    <string>com.expofp.FplanUiKit.dataprocessing</string>
+</array>
 
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>The app requires 'Always Allow' to provide you with security alerts and other relevant location-based promotions and contextual messages.</string>

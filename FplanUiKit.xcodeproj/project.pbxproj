@@ -14,6 +14,8 @@
 		E723067029C37B2F00977647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E723066F29C37B2F00977647 /* Assets.xcassets */; };
 		E723067329C37B2F00977647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E723067129C37B2F00977647 /* LaunchScreen.storyboard */; };
 		E7DEA2072A265DB200CD1D97 /* Pods_FplanUiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECCA6905C0151DFE32B00F /* Pods_FplanUiKit.framework */; };
+		E7FE18802B6D084500E47AF6 /* WDS.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E7FE187F2B6D084500E47AF6 /* WDS.gpx */; };
+		E7FE18822B6D0C5C00E47AF6 /* ICE2024.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E7FE18812B6D0C5C00E47AF6 /* ICE2024.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E723067229C37B2F00977647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E723067429C37B2F00977647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7B8C72B29C39C2600EC867B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		E7FE187F2B6D084500E47AF6 /* WDS.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WDS.gpx; sourceTree = "<group>"; };
+		E7FE18812B6D0C5C00E47AF6 /* ICE2024.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ICE2024.gpx; sourceTree = "<group>"; };
 		ECECCA6905C0151DFE32B00F /* Pods_FplanUiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FplanUiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,6 +92,8 @@
 				E723066F29C37B2F00977647 /* Assets.xcassets */,
 				E723067129C37B2F00977647 /* LaunchScreen.storyboard */,
 				E723067429C37B2F00977647 /* Info.plist */,
+				E7FE187F2B6D084500E47AF6 /* WDS.gpx */,
+				E7FE18812B6D0C5C00E47AF6 /* ICE2024.gpx */,
 			);
 			path = FplanUiKit;
 			sourceTree = "<group>";
@@ -104,6 +110,7 @@
 				E723066029C37B2D00977647 /* Frameworks */,
 				E723066129C37B2D00977647 /* Resources */,
 				7F1447139B08DBA2A2420EDA /* [CP] Embed Pods Frameworks */,
+				2BC9B7F4D6DEB7F55BE2C32A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,13 +161,32 @@
 			files = (
 				E723067329C37B2F00977647 /* LaunchScreen.storyboard in Resources */,
 				E723067029C37B2F00977647 /* Assets.xcassets in Resources */,
+				E7FE18802B6D084500E47AF6 /* WDS.gpx in Resources */,
 				E723066E29C37B2D00977647 /* Main.storyboard in Resources */,
+				E7FE18822B6D0C5C00E47AF6 /* ICE2024.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2BC9B7F4D6DEB7F55BE2C32A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7F1447139B08DBA2A2420EDA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_USE_OPTIMIZATION_PROFILE = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -368,7 +395,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_USE_OPTIMIZATION_PROFILE = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -401,7 +429,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -7,9 +7,9 @@ use_frameworks!
 inhibit_all_warnings!
 
 def shared_pods
-  pod 'ExpoFpFplan', '4.2.18'
-  pod 'ExpoFpCrowdConnected', '4.2.18'
-  #pod 'ExpoFpIndoorAtlas', '4.2.18'
+  pod 'ExpoFpFplan', '4.5.9'
+  pod 'ExpoFpCrowdConnected', '4.5.9'
+  pod 'ExpoFpIndoorAtlas', '4.5.9'
 end
 
 target 'FplanUiKit' do
