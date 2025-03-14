@@ -1,6 +1,8 @@
 import UIKit
 import ExpoFpCommon
 import ExpoFpFplan
+import ExpoFpCrowdConnected
+import CoreLocation
 
 class ViewController: UIViewController {
     var fplanUiView: UIFplanView!
@@ -8,19 +10,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var container: UIView!
     
     @IBAction func selectBooth(_ sender: UIBarButtonItem) {
-        self.fplanUiView.selectBooth("305")
+        self.fplanUiView.selectBooth("4.1-31")
     }
     
     @IBAction func selectExhibitor(_ sender: UIBarButtonItem) {
-        self.fplanUiView?.selectExhibitor("Aria Style")
+        self.fplanUiView?.selectExhibitor("VerdaFuel Systems")
     }
     
     @IBAction func setPosition(_ sender: UIBarButtonItem) {
-        self.fplanUiView?.setCurrentPosition(BlueDotPoint(x: 45000.00, y: 14000.00), true)
+        self.fplanUiView?.setCurrentPosition(BlueDotPoint(x: 9388.00, y: 9887.00, z: "1"), true)
     }
     
     @IBAction func buildRoute(_ sender: UIBarButtonItem) {
-        self.fplanUiView.selectRoute(Route(from: "305", to: "339", exceptInaccessible: false))
+        self.fplanUiView.selectRoute(Route(from: "4.1-37", to: "4.1-11", exceptInaccessible: false))
     }
     
     @IBAction func clear(_ sender: UIBarButtonItem) {
@@ -38,34 +40,8 @@ class ViewController: UIViewController {
         fplanUiView.trailingAnchor.constraint(equalTo: container.trailingAnchor).isActive = true
         fplanUiView.topAnchor.constraint(equalTo: container.topAnchor).isActive = true
         fplanUiView.bottomAnchor.constraint(equalTo: container.bottomAnchor).isActive = true
-        
-        fplanUiView.setOnFpReadyCallback {
-            print("[OnFpReady]")
-        }
-        
-        fplanUiView.setOnFpErrorCallback { errorCode, description in
-            print("[OnFpError] errorCode=\(errorCode); description=\(description)")
-        }
-        
-        fplanUiView.setOnBoothClickCallback { booth in
-            print("[OnBoothClick] id=\(booth.id); name=\(booth.name)")
-        }
-        
-        fplanUiView.setOnBuildDirectionCallback { direction in
-            print("[OnBuildDirection]")
-            print(direction)
-        }
-        
-        fplanUiView.setOnExhibitorCustomButtonClickCallback { externalId, buttonNumber, buttonUrl in
-            print("[OnExhibitorCustomButtonClick] externalId=\(externalId); buttonNumber=\(buttonNumber); buttonUrl=\(buttonUrl)")
-        }
-        
-        fplanUiView.setOnDetailsClickCallback { details in
-            print("[OnDetailsClick]")
-            print(details)
-        }
-        
-        fplanUiView.load("https://demo.expofp.com/")
+    
+        self.fplanUiView.load("https://demo.expofp.com?noOverlay=true")
     }
     
     override func viewWillDisappear(_ animated: Bool) {

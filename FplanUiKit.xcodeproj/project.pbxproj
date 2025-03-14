@@ -13,14 +13,14 @@
 		E723066E29C37B2D00977647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E723066C29C37B2D00977647 /* Main.storyboard */; };
 		E723067029C37B2F00977647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E723066F29C37B2F00977647 /* Assets.xcassets */; };
 		E723067329C37B2F00977647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E723067129C37B2F00977647 /* LaunchScreen.storyboard */; };
-		E7DEA2072A265DB200CD1D97 /* Pods_FplanUiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECCA6905C0151DFE32B00F /* Pods_FplanUiKit.framework */; };
-		E7FE18802B6D084500E47AF6 /* WDS.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E7FE187F2B6D084500E47AF6 /* WDS.gpx */; };
-		E7FE18822B6D0C5C00E47AF6 /* ICE2024.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E7FE18812B6D0C5C00E47AF6 /* ICE2024.gpx */; };
+		E74A6BDB2D2403310057AA3D /* AWSClientRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = E74A6BDA2D2403310057AA3D /* AWSClientRuntime */; };
+		E7C0FC9D2D843C16002B1CC0 /* ExpoFpFplan in Frameworks */ = {isa = PBXBuildFile; productRef = E7C0FC9C2D843C16002B1CC0 /* ExpoFpFplan */; };
+		E7C0FCA02D843C4A002B1CC0 /* ExpoFpCrowdConnected in Frameworks */ = {isa = PBXBuildFile; productRef = E7C0FC9F2D843C4A002B1CC0 /* ExpoFpCrowdConnected */; };
+		E7C0FCA22D843C88002B1CC0 /* ExpoFpCrowdConnected in Frameworks */ = {isa = PBXBuildFile; productRef = E7C0FCA12D843C88002B1CC0 /* ExpoFpCrowdConnected */; };
+		E7C0FCA52D843C99002B1CC0 /* ExpoFpIndoorAtlas in Frameworks */ = {isa = PBXBuildFile; productRef = E7C0FCA42D843C99002B1CC0 /* ExpoFpIndoorAtlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		74B8BE4AC812C2D6E907DDBF /* Pods-FplanUiKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FplanUiKit.debug.xcconfig"; path = "Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit.debug.xcconfig"; sourceTree = "<group>"; };
-		C4D1180B024B89ACBBC15D27 /* Pods-FplanUiKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FplanUiKit.release.xcconfig"; path = "Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit.release.xcconfig"; sourceTree = "<group>"; };
 		E723066329C37B2D00977647 /* FplanUiKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FplanUiKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E723066629C37B2D00977647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E723066829C37B2D00977647 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,9 +30,6 @@
 		E723067229C37B2F00977647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E723067429C37B2F00977647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7B8C72B29C39C2600EC867B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		E7FE187F2B6D084500E47AF6 /* WDS.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WDS.gpx; sourceTree = "<group>"; };
-		E7FE18812B6D0C5C00E47AF6 /* ICE2024.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ICE2024.gpx; sourceTree = "<group>"; };
-		ECECCA6905C0151DFE32B00F /* Pods_FplanUiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FplanUiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,37 +37,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7DEA2072A265DB200CD1D97 /* Pods_FplanUiKit.framework in Frameworks */,
+				E7C0FCA52D843C99002B1CC0 /* ExpoFpIndoorAtlas in Frameworks */,
+				E7C0FCA22D843C88002B1CC0 /* ExpoFpCrowdConnected in Frameworks */,
+				E7C0FC9D2D843C16002B1CC0 /* ExpoFpFplan in Frameworks */,
+				E7C0FCA02D843C4A002B1CC0 /* ExpoFpCrowdConnected in Frameworks */,
+				E74A6BDB2D2403310057AA3D /* AWSClientRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E07040CC6D6253D6AC31AE4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				74B8BE4AC812C2D6E907DDBF /* Pods-FplanUiKit.debug.xcconfig */,
-				C4D1180B024B89ACBBC15D27 /* Pods-FplanUiKit.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		6B17F9BC40AAEFB3370AF88D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ECECCA6905C0151DFE32B00F /* Pods_FplanUiKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		E723065A29C37B2D00977647 = {
 			isa = PBXGroup;
 			children = (
 				E723066529C37B2D00977647 /* FplanUiKit */,
 				E723066429C37B2D00977647 /* Products */,
-				2E07040CC6D6253D6AC31AE4 /* Pods */,
-				6B17F9BC40AAEFB3370AF88D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +74,6 @@
 				E723066F29C37B2F00977647 /* Assets.xcassets */,
 				E723067129C37B2F00977647 /* LaunchScreen.storyboard */,
 				E723067429C37B2F00977647 /* Info.plist */,
-				E7FE187F2B6D084500E47AF6 /* WDS.gpx */,
-				E7FE18812B6D0C5C00E47AF6 /* ICE2024.gpx */,
 			);
 			path = FplanUiKit;
 			sourceTree = "<group>";
@@ -105,12 +85,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E723067729C37B2F00977647 /* Build configuration list for PBXNativeTarget "FplanUiKit" */;
 			buildPhases = (
-				974DB810A7A81CB524266245 /* [CP] Check Pods Manifest.lock */,
 				E723065F29C37B2D00977647 /* Sources */,
 				E723066029C37B2D00977647 /* Frameworks */,
 				E723066129C37B2D00977647 /* Resources */,
-				7F1447139B08DBA2A2420EDA /* [CP] Embed Pods Frameworks */,
-				2BC9B7F4D6DEB7F55BE2C32A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +122,11 @@
 				Base,
 			);
 			mainGroup = E723065A29C37B2D00977647;
+			packageReferences = (
+				E7C0FC9B2D843C16002B1CC0 /* XCRemoteSwiftPackageReference "expofp-fplan-ios-spm" */,
+				E7C0FC9E2D843C4A002B1CC0 /* XCRemoteSwiftPackageReference "expofp-crowdconnected-ios-spm" */,
+				E7C0FCA32D843C99002B1CC0 /* XCRemoteSwiftPackageReference "expofp-indooratlas-ios-spm" */,
+			);
 			productRefGroup = E723066429C37B2D00977647 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -161,72 +143,11 @@
 			files = (
 				E723067329C37B2F00977647 /* LaunchScreen.storyboard in Resources */,
 				E723067029C37B2F00977647 /* Assets.xcassets in Resources */,
-				E7FE18802B6D084500E47AF6 /* WDS.gpx in Resources */,
 				E723066E29C37B2D00977647 /* Main.storyboard in Resources */,
-				E7FE18822B6D0C5C00E47AF6 /* ICE2024.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2BC9B7F4D6DEB7F55BE2C32A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7F1447139B08DBA2A2420EDA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FplanUiKit/Pods-FplanUiKit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		974DB810A7A81CB524266245 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FplanUiKit-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E723065F29C37B2D00977647 /* Sources */ = {
@@ -378,7 +299,6 @@
 		};
 		E723067829C37B2F00977647 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74B8BE4AC812C2D6E907DDBF /* Pods-FplanUiKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -388,6 +308,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2TWXV89QU8;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FplanUiKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -412,7 +334,6 @@
 		};
 		E723067929C37B2F00977647 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4D1180B024B89ACBBC15D27 /* Pods-FplanUiKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -422,6 +343,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2TWXV89QU8;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FplanUiKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,6 +389,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E74A6BD92D2403310057AA3D /* XCRemoteSwiftPackageReference "aws-sdk-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/awslabs/aws-sdk-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.69;
+			};
+		};
+		E7C0FC9B2D843C16002B1CC0 /* XCRemoteSwiftPackageReference "expofp-fplan-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/expofp/expofp-fplan-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.8.18;
+			};
+		};
+		E7C0FC9E2D843C4A002B1CC0 /* XCRemoteSwiftPackageReference "expofp-crowdconnected-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/expofp/expofp-crowdconnected-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.8.18;
+			};
+		};
+		E7C0FCA32D843C99002B1CC0 /* XCRemoteSwiftPackageReference "expofp-indooratlas-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/expofp/expofp-indooratlas-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.8.18;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E74A6BDA2D2403310057AA3D /* AWSClientRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E74A6BD92D2403310057AA3D /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
+			productName = AWSClientRuntime;
+		};
+		E7C0FC9C2D843C16002B1CC0 /* ExpoFpFplan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7C0FC9B2D843C16002B1CC0 /* XCRemoteSwiftPackageReference "expofp-fplan-ios-spm" */;
+			productName = ExpoFpFplan;
+		};
+		E7C0FC9F2D843C4A002B1CC0 /* ExpoFpCrowdConnected */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7C0FC9E2D843C4A002B1CC0 /* XCRemoteSwiftPackageReference "expofp-crowdconnected-ios-spm" */;
+			productName = ExpoFpCrowdConnected;
+		};
+		E7C0FCA12D843C88002B1CC0 /* ExpoFpCrowdConnected */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7C0FC9E2D843C4A002B1CC0 /* XCRemoteSwiftPackageReference "expofp-crowdconnected-ios-spm" */;
+			productName = ExpoFpCrowdConnected;
+		};
+		E7C0FCA42D843C99002B1CC0 /* ExpoFpIndoorAtlas */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7C0FCA32D843C99002B1CC0 /* XCRemoteSwiftPackageReference "expofp-indooratlas-ios-spm" */;
+			productName = ExpoFpIndoorAtlas;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E723065B29C37B2D00977647 /* Project object */;
 }
