@@ -11,7 +11,7 @@ import UIKit
 import ExpoFpCommon
 import ExpoFpFplan
 import ExpoFpCrowdConnected
-import CoreLocation
+import ExpoFpIndoorAtlas
 
 class ViewController: UIViewController {
     var fplanUiView: UIFplanView!
@@ -50,11 +50,38 @@ class ViewController: UIViewController {
         fplanUiView.topAnchor.constraint(equalTo: container.topAnchor).isActive = true
         fplanUiView.bottomAnchor.constraint(equalTo: container.bottomAnchor).isActive = true
     
+        load()
+    }
+    
+    func load(){
         self.fplanUiView.load("https://demo.expofp.com?noOverlay=true")
+    }
+    
+    func loadOffline(){
+        self.fplanUiView.downloadZipToCache("https://demo.expofp.com") { filePath, error in
+            self.fplanUiView.openFileFromCache(params: "noOverlay=true", settings: Settings())
+        }
+    }
+    
+    func loadWithCrowdConnectedProvider(){
+        var lp: LocationProvider = CrowdConnectedProvider(ExpoFpCrowdConnected.Settings(appKey:"APP_KEY", token: "TOKEN", secret: "SECRET", mode: ExpoFpCrowdConnected.Mode.IPS_ONLY))
+        GlobalLocationProvider.initialize(lp)
+        GlobalLocationProvider.start()
+        
+        self.fplanUiView.load("https://demo.expofp.com?noOverlay=true", useGlobalLocationProvider: true)
+    }
+    
+    func loadWithIndoorAtlasProvider(){
+        var lp: LocationProvider = IndoorAtlasProvider(ExpoFpIndoorAtlas.Settings("API_KEY", "API_SECRET_KEY"))
+        GlobalLocationProvider.initialize(lp)
+        GlobalLocationProvider.start()
+        
+        self.fplanUiView.load("https://demo.expofp.com?noOverlay=true", useGlobalLocationProvider: true)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         fplanUiView?.destoy()
     }
 }
+
 ```
