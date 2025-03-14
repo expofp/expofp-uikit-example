@@ -4,17 +4,14 @@ This is an example of how you can integrate ExpoFP floor plan into an iOS(UIKit)
 
 Documentation: https://expofp.github.io/expofp-mobile-sdk/ios-sdk/
 
-## Installation
-
-```js
-  pod 'ExpoFpFplan', '4.2.11'
-```
-
 ## Code example
 
 ```swift
 import UIKit
+import ExpoFpCommon
 import ExpoFpFplan
+import ExpoFpCrowdConnected
+import CoreLocation
 
 class ViewController: UIViewController {
     var fplanUiView: UIFplanView!
@@ -22,23 +19,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var container: UIView!
     
     @IBAction func selectBooth(_ sender: UIBarButtonItem) {
-        self.fplanUiView.selectBooth("544")
+        self.fplanUiView.selectBooth("4.1-31")
     }
     
     @IBAction func selectExhibitor(_ sender: UIBarButtonItem) {
-        self.fplanUiView.selectExhibitor("RPMXPO")
+        self.fplanUiView?.selectExhibitor("VerdaFuel Systems")
     }
     
     @IBAction func setPosition(_ sender: UIBarButtonItem) {
-        self.fplanUiView.setCurrentPosition(BlueDotPoint(latitude: 38.180023, longitude: -85.845180), true)
+        self.fplanUiView?.setCurrentPosition(BlueDotPoint(x: 9388.00, y: 9887.00, z: "1"), true)
     }
     
     @IBAction func buildRoute(_ sender: UIBarButtonItem) {
-        self.fplanUiView.selectRoute(Route(from: "519", to: "656", exceptInaccessible: false))
+        self.fplanUiView.selectRoute(Route(from: "4.1-37", to: "4.1-11", exceptInaccessible: false))
     }
     
     @IBAction func clear(_ sender: UIBarButtonItem) {
-        self.fplanUiView.clear()
+        self.fplanUiView?.clear()
     }
     
     override func viewDidLoad() {
@@ -46,43 +43,18 @@ class ViewController: UIViewController {
         
         fplanUiView = UIFplanView()
         fplanUiView.translatesAutoresizingMaskIntoConstraints = false
-        
         container.addSubview(fplanUiView)
         
         fplanUiView.leadingAnchor.constraint(equalTo: container.leadingAnchor).isActive = true
         fplanUiView.trailingAnchor.constraint(equalTo: container.trailingAnchor).isActive = true
         fplanUiView.topAnchor.constraint(equalTo: container.topAnchor).isActive = true
         fplanUiView.bottomAnchor.constraint(equalTo: container.bottomAnchor).isActive = true
-        
-        fplanUiView.setOnFpReadyCallback {
-            print("[OnFpReady]")
-        }
-        
-        fplanUiView.setOnBoothClickCallback { id, name in
-            print("[OnBoothClick] id=\(id); name=\(name)")
-        }
-        
-        fplanUiView.setOnBuildDirectionCallback { direction in
-            print("[OnBuildDirection]")
-            print(direction)
-        }
-        
-        fplanUiView.setOnExhibitorCustomButtonClickCallback { externalId, buttonNumber, buttonUrl in
-            print("[OnExhibitorCustomButtonClick] externalId=\(externalId); buttonNumber=\(buttonNumber); buttonUrl=\(buttonUrl)")
-        }
-        
-        fplanUiView.setOnDetailsClickCallback { details in
-            print("[OnDetailsClick]")
-            print(details)
-        }
-        
-        fplanUiView.load("https://demo.expofp.com")
+    
+        self.fplanUiView.load("https://demo.expofp.com?noOverlay=true")
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        fplanUiView.destoy()
+        fplanUiView?.destoy()
     }
 }
 ```
-
-## Screenshot
